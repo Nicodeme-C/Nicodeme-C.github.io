@@ -114,8 +114,7 @@ header {
 }
 
 .img-s2 {
-  background: url(/Nicodeme-C.github.io/integration-run-master/integration-run-master/img/img-right.jpg)
-    center/cover;
+  background: url(./integration-run-master/img/img-right.jpg) center/cover;
 }
 
 /***********************Formulaire de contact ***************************/
