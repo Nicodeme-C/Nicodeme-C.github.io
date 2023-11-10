@@ -1,7 +1,7 @@
 @font-face {
   font-family: Source Sans Pro;
 
-  src: url(../integration-run-master/integration-run-master/fonts/SourceSansPro-Light.ttf);
+  src: url(integration-run-master/integration-run-master/fonts/SourceSansPro-Light.ttf);
 }
 
 /************** REGLAGES GENERAUX *****************/
@@ -92,7 +92,7 @@ header {
 }
 
 .img-banner {
-  background: url("../integration-run-master/integration-run-master/img/banner.jpg")
+  background: url(integration-run-master/integration-run-master/img/banner.jpg)
     right/cover;
 }
 
@@ -104,7 +104,7 @@ header {
 }
 
 .img-s1 {
-  background: url("../integration-run-master/integration-run-master/img/img-left.jpg")
+  background: url(integration-run-master/integration-run-master/img/img-left.jpg)
     center/cover;
 }
 
@@ -116,7 +116,7 @@ header {
 }
 
 .img-s2 {
-  background: url("../integration-run-master/integration-run-master/img/img-right.jpg")
+  background: url(integration-run-master/integration-run-master/img/img-right.jpg)
     center/cover;
 }
 
