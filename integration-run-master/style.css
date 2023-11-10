@@ -1,0 +1,234 @@
+@font-face {
+  font-family: Source Sans Pro;
+
+  src: url("../integration-run-master/integration-run-master/fonts/SourceSansPro-Light.ttf");
+}
+
+/************** REGLAGES GENERAUX *****************/
+
+* {
+  font-family: "Source Sans Pro";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  margin-block: 0;
+  outline: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 36px;
+  margin: 30px 0;
+}
+
+/* Pour mettre le trait en dessous de chaque section*/
+
+.section-1,
+.section-2,
+.contact {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
+}
+
+/**************** REGLAGES DES BOUTONS ET LIENS ************************************/
+
+.button {
+  background: transparent;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  border-radius: 20px 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid purple;
+  background-color: purple;
+  color: white;
+}
+
+a {
+  border: 1px solid black;
+  border-radius: 50px 50px;
+  padding: 10px;
+  transition: 0.5ms;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  border: 1px solid purple;
+  background-color: purple;
+  color: white;
+}
+
+/********************** HEADER ***********************/
+
+header {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+
+.img-banner {
+  background: url("../integration-run-master/integration-run-master/img/banner.jpg")
+    right/cover;
+}
+
+/*********************Section 1 ******************/
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.img-s1 {
+  background: url("../integration-run-master/integration-run-master/img/img-left.jpg")
+    center/cover;
+}
+
+/*********************Section 2 ******************/
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.img-s2 {
+  background: url("../integration-run-master/integration-run-master/img/img-right.jpg")
+    center/cover;
+}
+
+/***********************Formulaire de contact ***************************/
+
+.contact {
+  text-align: center;
+  position: relative;
+  padding: 60px 0;
+}
+
+.formulaire {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 224px;
+  grid-template-areas:
+    "input1 input2"
+    "texta texta";
+  gap: 10px;
+  width: 85%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.Message {
+  grid-area: texta;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  margin: 20px 0 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border: 2px solid rgb(218, 135, 235);
+}
+
+textarea {
+  resize: none;
+  height: 180px;
+}
+
+/*********************** FOOTER ************************/
+footer {
+  padding: 70px 0 90px;
+  position: relative;
+}
+footer:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.082);
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+footer a {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+/******************* RESPONSIVE *******************/
+@media screen and (max-width: 650px) {
+  header,
+  .section-1,
+  .section-2 {
+    display: block;
+  }
+  header {
+    height: auto;
+  }
+  header .img-banner {
+    height: 50vh;
+    margin-top: 30px;
+  }
+  .container {
+    padding: 15px;
+  }
+  footer ul {
+    min-width: 200px;
+  }
+  footer a {
+    width: 24px;
+    height: 24px;
+  }
+  footer i {
+    font-size: 0.6rem;
+  }
+}
