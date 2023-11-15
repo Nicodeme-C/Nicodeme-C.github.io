@@ -1,0 +1,61 @@
+//*************** Variables *********************
+$color1: rgba(0, 0, 255, 0.377);
+$color2: rgba(255, 0, 64, 0.377);
+$white: rgb(241, 241, 241);
+$black: rgb(23, 23, 23);
+
+//*************** mixins *********************
+@mixin centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//*************** fonts *********************
+
+@font-face {
+  font-family: "Merriweather-Light";
+  src: url(../fonts/Merriweather-Light.ttf);
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(../fonts/Inter-ExtraBold.ttf);
+}
+
+//*************** body *********************
+
+body {
+  background: url(../img/bg.jpg) no-repeat fixed center/cover;
+}
+
+//**************Parametres generaux**************
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  color: $white;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  color: $black;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 3rem;
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  color: $black;
+  letter-spacing: 5px;
+}

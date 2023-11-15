@@ -3,8 +3,11 @@
 // settings.scss doit être lu en premier pour que sass connaisse les variables
 
 // @import "./settings";
-// @import "./layout/navbar";
-// @import "./layout/header";
-// @import "./layout/section";
-// @import "./layout/footer";
-// @import "./components/buttons";
+
+@import "./_settings";
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/section-1";
+@import "./layout/section-2";
+@import "./layout/section-3";
+@import "./layout/footer";
