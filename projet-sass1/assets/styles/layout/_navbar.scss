@@ -1,0 +1,36 @@
+nav ul {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 1px solid transparent;
+  margin: 0;
+}
+
+.nav-left {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 0 20px;
+
+  a {
+    margin: 0 0px 0 0;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.nav-right {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0 20px;
+
+  i {
+    color: $white;
+    margin: 0 0 0 50px;
+  }
+}

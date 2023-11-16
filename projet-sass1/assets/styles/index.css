@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Merriweather-Light";
   src: url(../fonts/Merriweather-Light.ttf);
@@ -8,12 +9,20 @@
 }
 body {
   background: url(../img/bg.jpg) no-repeat fixed center/cover;
+  min-height: 100vh;
 }
 
 * {
+  font-family: "Merriweather-Light";
   padding: 0;
-  margin: 0;
+  margin: 0 20px;
   list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-block: 0;
+  outline: none;
+  color: rgb(23, 23, 23);
+  text-decoration: none;
 }
 
 h1 {
@@ -38,4 +47,116 @@ h3 {
   text-transform: uppercase;
   color: rgb(23, 23, 23);
   letter-spacing: 5px;
+}
+
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  color: rgb(23, 23, 23);
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: rgb(23, 23, 23);
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(23, 23, 23);
+  font-style: italic;
+}
+
+.button {
+  border: 1px solid rgb(23, 23, 23);
+  background: transparent;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(23, 23, 23);
+  font-size: 0.7rem;
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.button:hover {
+  background: rgba(38, 0, 255, 0.76);
+  border-color: rgba(38, 0, 255, 0.76);
+  color: rgb(241, 241, 241);
+}
+
+.header i {
+  border: 1px solid rgb(241, 241, 241);
+  padding: 10px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.header i:hover {
+  background: rgba(38, 0, 255, 0.76);
+  border-color: rgba(38, 0, 255, 0.76);
+}
+
+.header {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.header h1,
+.header p,
+.header i {
+  margin-bottom: 30px; /* Espacement entre chaque élément */
+}
+
+nav ul {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 1px solid transparent;
+  margin: 0;
+}
+
+.nav-left {
+  font-size: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding: 0 20px;
+}
+.nav-left a {
+  margin: 0 0px 0 0;
+}
+.nav-left a:hover {
+  color: red;
+}
+
+.nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  padding: 0 20px;
+}
+.nav-right i {
+  color: rgb(241, 241, 241);
+  margin: 0 0 0 50px;
+}
+
+.section-all {
+  background: white;
 }/*# sourceMappingURL=index.css.map */
