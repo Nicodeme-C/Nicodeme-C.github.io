@@ -9,7 +9,9 @@
 }
 body {
   background: url(../img/bg.jpg) no-repeat fixed center/cover;
-  min-height: 100vh;
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 1400px;
 }
 
 * {
@@ -31,6 +33,7 @@ h1 {
   text-transform: uppercase;
   color: rgb(241, 241, 241);
   letter-spacing: 5px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -51,8 +54,8 @@ h3 {
 
 h4 {
   font-size: 1rem;
-  font-style: italic;
   color: rgb(23, 23, 23);
+  font-weight: 100;
 }
 
 h5 {
@@ -62,9 +65,10 @@ h5 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: rgb(23, 23, 23);
   font-style: italic;
+  line-height: 2.5;
 }
 
 .button {
@@ -111,33 +115,47 @@ p {
   margin-bottom: 30px; /* Espacement entre chaque élément */
 }
 
-nav ul {
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: 50% 50%;
+nav {
   background-color: rgba(255, 255, 255, 0.13);
   border: 1px solid transparent;
-  margin: 0;
+  padding: 0px 0px;
+}
+
+ul {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 1400px;
 }
 
 .nav-left {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.nav-left a {
-  margin: 0 0px 0 0;
+.nav-left li {
+  padding: 0px;
+  background: transparent;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
 }
-.nav-left a:hover {
-  color: red;
+.nav-left li a,
+.nav-left li i {
+  margin: 0;
+  padding: 0;
+}
+.nav-left li a:hover {
+  padding: 10px 10px;
+  background: lightgray;
 }
 
 .nav-right {
@@ -147,16 +165,72 @@ nav ul {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-right li {
+  margin: 0;
+}
+.nav-right a {
+  margin: 0;
+  padding: 0;
 }
 .nav-right i {
   color: rgb(241, 241, 241);
-  margin: 0 0 0 50px;
 }
 
 .section-all {
   background: white;
+}
+
+.section-1,
+.section-1 h4,
+.section-1 h2,
+.section-1 p,
+.img-section-1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.section-1 h4 {
+  position: relative;
+}
+.section-1 h4:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.082);
+  top: 40px;
+  left: 20%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.section-1 h4:after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.082);
+  top: 40px;
+  right: -10%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.section-1 h2 {
+  text-align: center;
+  max-width: 400px;
+}
+.section-1 p {
+  max-width: 400px;
+  text-align: center;
+}
+.section-1 .img-section-1 {
+  display: block;
+  background: url(/Nicodeme-C.github.io/projet-sass1/assets/img/pic01.jpg) no-repeat center/cover;
+  height: 60vh;
+  margin: 10px 50px 30px 50px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=index.css.map */

@@ -1,24 +1,39 @@
-nav ul {
-  padding: 20px 0;
-  display: grid;
-  grid-template-columns: 50% 50%;
+nav {
   background-color: rgba(255, 255, 255, 0.13);
   border: 1px solid transparent;
-  margin: 0;
+  padding: 0px 0px;
+}
+
+ul {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 1400px;
 }
 
 .nav-left {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: left;
-  align-items: left;
-  padding: 0 20px;
+  align-items: center;
 
-  a {
-    margin: 0 0px 0 0;
+  li {
+    padding: 0px;
+    background: transparent; // Fond initial
+    transition: background 0.5s; // Ajout d'une transition de 0.5s
 
-    &:hover {
-      color: red;
+    a,
+    i {
+      margin: 0;
+      padding: 0;
+    }
+
+    a:hover {
+      padding: 10px 10px;
+      background: lightgray; // Fond sur le survol de toute la .nav-left
     }
   }
 }
@@ -26,11 +41,16 @@ nav ul {
 .nav-right {
   display: flex;
   justify-content: right;
-  align-items: right;
-  padding: 0 20px;
+  align-items: center;
 
+  li {
+    margin: 0;
+  }
+  a {
+    margin: 0;
+    padding: 0;
+  }
   i {
     color: $white;
-    margin: 0 0 0 50px;
   }
 }
