@@ -7,11 +7,11 @@ nav {
 ul {
   padding: 10px 0;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 
   margin: 0 auto;
-  min-width: 800px;
-  max-width: 1400px;
+  // min-width: 800px;
+  max-width: 1200px;
 }
 
 .nav-left {
