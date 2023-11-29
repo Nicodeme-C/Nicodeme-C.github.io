@@ -15,18 +15,18 @@ $black: rgb(23, 23, 23);
 
 @font-face {
   font-family: "Merriweather-Light";
-  src: url(../fonts/Merriweather-Light.ttf);
+  src: url(./assets/fonts/Merriweather-Light.ttf);
 }
 
 @font-face {
   font-family: "Inter-ExtraBold";
-  src: url(../fonts/Inter-ExtraBold.ttf);
+  src: url(./assets/fonts/Inter-ExtraBold.ttf);
 }
 
 //*************** body *********************
 
 body {
-  background: url(../img/bg.jpg) no-repeat fixed center/cover;
+  background: url(./assets/img/bg.jpg) no-repeat fixed center/cover;
 
   margin: 0 auto;
   //   min-width: 800px;

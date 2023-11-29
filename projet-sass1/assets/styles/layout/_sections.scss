@@ -1,0 +1,103 @@
+// *******************************************Section ALL****************************************
+
+.section-all {
+  background: white;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px; /* Ajustez la largeur maximale selon vos besoins */
+  padding: 50px 0;
+}
+
+// ********************************************Centrer toutes les sections ****************************************
+
+// .section-1,
+// .section-2,
+// .section-3,
+// .section-1 h4,
+// .section-2 h4,
+// .section-3 h4,
+// .section-1 h2,
+// .section-2 h2,
+// .section-3 h2,
+// .section-1 p,
+// .section-2 p,
+// .section-3 p,
+// .img-section-1,
+// .img-section-2,
+// .img-section-3 {
+//   text-align: center;
+//   margin: 0 auto;
+//   padding: 25px 0; //espacement generale des sections
+// }
+
+.section-1 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px; /* Ajustez la largeur maximale selon vos besoins */
+  padding: 25px 0; /* Espacement général de la section */
+}
+
+// ********************************************Section 1 ****************************************
+
+.section-1 {
+  h4 {
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.082);
+      top: 40px;
+      left: 20%;
+      transform: translateX(-50%);
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.082);
+      top: 40px;
+      right: -10%;
+      transform: translateX(-50%);
+    }
+  }
+
+  h2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+
+  // p {
+  //   max-width: 400px;
+  //   text-align: center;
+  // }
+
+  .img-section-1 {
+    display: block;
+    background: url(/Nicodeme-C.github.io/projet-sass1/assets/img/pic01.jpg)
+      no-repeat center/cover;
+    height: 60vh;
+    margin: 10px 50px 30px 50px;
+    padding-bottom: 50px;
+  }
+}
+
+// ********************************************Section 2 ****************************************
+
+.section-2 {
+  &:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.082);
+    top: 40px;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+}
