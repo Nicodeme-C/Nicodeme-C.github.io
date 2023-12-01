@@ -1,0 +1,23 @@
+footer {
+  position: relative;
+  display: flex;
+  background: $white;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 1200px; /* Ajustez la largeur maximale selon vos besoins */
+  padding: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 114.5%; /* Hauteur de 100% pour couvrir toute la hauteur de l'élément parent */
+    width: 1px;
+    background: rgba(0, 0, 0, 0.082);
+    top: -1px;
+    right: 600px;
+  }
+
+  ul {
+    margin: 0 auto;
+  }
+}
