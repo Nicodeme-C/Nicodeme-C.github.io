@@ -70,6 +70,14 @@ p {
   line-height: 2.5;
 }
 
+label {
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
 .button {
   border: 1px solid rgb(23, 23, 23);
   background: transparent;
@@ -83,9 +91,10 @@ p {
   transition: 0.7s;
 }
 .button:hover {
-  background: rgba(38, 0, 255, 0.76);
-  border-color: rgba(38, 0, 255, 0.76);
+  background: rgba(107, 27, 153, 0.884);
+  border-color: rgba(107, 27, 153, 0.884);
   color: rgb(241, 241, 241);
+  cursor: pointer;
 }
 
 .header i {
@@ -98,8 +107,8 @@ p {
   transition: 0.7s;
 }
 .header i:hover {
-  background: rgba(38, 0, 255, 0.76);
-  border-color: rgba(38, 0, 255, 0.76);
+  background: rgba(107, 27, 153, 0.884);
+  border-color: rgba(107, 27, 153, 0.884);
 }
 
 form {
@@ -110,18 +119,40 @@ form {
 
 .formulaire {
   background: rgb(241, 241, 241);
-  max-width: 1200px; /* Ajustez la largeur maximale selon vos besoins */
   text-align: left;
-  padding: 50px 25px 30px 0;
+  padding: 20px 0px 30px 0;
 }
 .formulaire .name,
 .formulaire .email,
 .formulaire .message {
+  padding: 0 20px;
+  margin: 20px 0;
   font-size: 0.9rem;
-  font-family: "Inter-ExtraBold";
   text-transform: uppercase;
-  font-weight: 600;
   letter-spacing: 1px;
+}
+.formulaire input[type=text],
+.formulaire textarea {
+  width: 100%;
+  max-width: 1000px;
+  margin: 15px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  resize: none;
+  background: rgb(241, 241, 241);
+}
+.formulaire input[type=text]:focus,
+.formulaire textarea:focus {
+  border: 1px solid rgba(107, 27, 153, 0.884);
+}
+.formulaire textarea {
+  padding: 50px;
+}
+.formulaire .button {
+  margin: 0 0 0 20px;
 }
 
 .header {
@@ -172,7 +203,7 @@ nav ul {
   margin: 0 20px;
 }
 .nav-left li:hover {
-  background: lightgray;
+  background: rgba(107, 27, 153, 0.884);
 }
 
 .nav-right {
@@ -185,7 +216,7 @@ nav ul {
   margin: 0 20px;
 }
 .nav-right li a:hover {
-  background: lightgray;
+  background: rgba(107, 27, 153, 0.884);
 }
 .nav-right i {
   color: rgb(241, 241, 241);

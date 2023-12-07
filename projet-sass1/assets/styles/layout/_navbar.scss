@@ -24,7 +24,7 @@ nav {
     margin: 0 20px;
 
     &:hover {
-      background: lightgray; // Fond sur le survol de toute la .nav-left
+      background: $colorhover; // Fond sur le survol de toute la .nav-left
     }
   }
 }
@@ -37,7 +37,7 @@ nav {
     margin: 0 20px;
 
     a:hover {
-      background: lightgray; // Fond sur le survol de toute la .nav-left
+      background: $colorhover; // Fond sur le survol de toute la .nav-left
     }
   }
 

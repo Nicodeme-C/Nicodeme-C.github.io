@@ -1,6 +1,6 @@
 //*************** Variables *********************
 $color1: rgba(0, 0, 255, 0.377);
-$colorhover: rgba(38, 0, 255, 0.76);
+$colorhover: rgba(107, 27, 153, 0.884);
 $white: rgb(241, 241, 241);
 $black: rgb(23, 23, 23);
 
@@ -103,4 +103,10 @@ p {
   line-height: 2.5;
 }
 
-
+label {
+  font-family: "Inter-ExtraBold";
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
