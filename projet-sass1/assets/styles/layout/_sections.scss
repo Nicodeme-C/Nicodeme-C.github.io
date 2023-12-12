@@ -110,19 +110,11 @@
 
   &:before {
     @include dividingLine;
-    // content: "";
-    // position: absolute;
-    // height: 114.5%; /* Hauteur de 100% pour couvrir toute la hauteur de l'élément parent */
-    // width: 1px;
-    // background: rgba(0, 0, 0, 0.082);
-    // top: -50px;
-    // right: -10px;
   }
 }
 
 .img-section-2,
 .img-section-3 {
-  // max-width: 400px;
   display: block;
 
   height: 25vh;

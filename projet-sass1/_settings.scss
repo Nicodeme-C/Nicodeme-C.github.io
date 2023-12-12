@@ -37,9 +37,7 @@ $black: rgb(23, 23, 23);
 
 body {
   background: url(./assets/img/bg.jpg) no-repeat fixed center/cover;
-
   margin: 0 auto;
-  //   min-width: 800px;
   max-width: 1200px;
 }
 
@@ -90,8 +88,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.5rem;
-
+  font-size: 0.9rem;
+  font-family: "Inter-ExtraBold";
   color: $black;
   text-transform: uppercase;
 }
@@ -109,4 +107,9 @@ label {
   color: gray;
   letter-spacing: 1px;
   margin: 0 auto;
+}
+
+span {
+  font-size: 0.8rem;
+  color: rgb(128, 128, 128);
 }

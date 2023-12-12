@@ -1,23 +1,48 @@
 footer {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   background: $white;
-  text-align: center;
-  margin: 30px auto;
-  max-width: 1200px; /* Ajustez la largeur maximale selon vos besoins */
-  padding: 0;
+  margin: 30px 0;
+  // max-width: 1200px;
 
   &::before {
     content: "";
     position: absolute;
-    height: 114.5%; /* Hauteur de 100% pour couvrir toute la hauteur de l'élément parent */
+    height: 100.5%;
     width: 1px;
     background: rgba(0, 0, 0, 0.082);
     top: -1px;
-    right: 600px;
+    right: 599px;
   }
 
   ul {
     margin: 0 auto;
+    width: 100%;
+  }
+}
+
+//******************ADRESS*********************
+
+.footer-adress,
+.footer-phone,
+.footer-email,
+.footer-social {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 50px 40px;
+  border-bottom: solid 1px lightgrey;
+
+  h5 {
+    padding: 0 100px 0 0;
+    margin: 0 auto;
+  }
+
+  .footer-social {
+    i {
+      background-color: red;
+
+      color: black;
+    }
   }
 }
