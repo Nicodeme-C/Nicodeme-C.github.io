@@ -34,3 +34,12 @@
     border-color: $colorhover;
   }
 }
+
+.footer-social i {
+  transition: 0.5s;
+  &:hover {
+    background: $colorhover;
+    border-color: $colorhover;
+    color: $white;
+  }
+}

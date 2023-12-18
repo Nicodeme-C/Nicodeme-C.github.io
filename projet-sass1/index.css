@@ -117,6 +117,16 @@ span {
   border-color: rgba(107, 27, 153, 0.884);
 }
 
+.footer-social i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.footer-social i:hover {
+  background: rgba(107, 27, 153, 0.884);
+  border-color: rgba(107, 27, 153, 0.884);
+  color: rgb(241, 241, 241);
+}
+
 form {
   text-align: center;
   position: relative;
@@ -429,7 +439,56 @@ footer ul {
 .footer-social i {
   border: solid 1px lightgray;
   border-radius: 50px;
-  padding: 20px 20px;
-  margin: 0 10px;
+  padding: 15px 15px;
+  margin: 10px 10px;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 1.9rem;
+  }
+  .header p {
+    font-size: 0.9rem;
+    margin: 50px 50px;
+    line-height: 1;
+  }
+  .nav-right {
+    display: none;
+  }
+  body {
+    max-width: 80%;
+  }
+  .section-1 .img-section-1 {
+    display: block;
+    height: 25vh;
+  }
+  .section-1 p {
+    min-height: 7em; /* Définit la hauteur minimale à 7 lignes */
+    white-space: pre-line; /* Préserve les sauts de ligne dans le texte */
+    line-height: 3; /* Hauteur de ligne (ajustez selon vos besoins) */
+    max-width: 30%;
+  }
+  .section-2-3 {
+    display: block;
+  }
+  .img-section-2,
+  .img-section-3 {
+    width: auto;
+  }
+  footer {
+    display: block;
+  }
+  .footer-adress {
+    border-top: solid 1px lightgray;
+  }
+}
+@media screen and (max-width: 972px) {
+  .footer-social i {
+    border: solid 1px lightgray;
+    border-radius: 50px;
+    padding: 13px 13px;
+    margin: 2px 2px;
+    color: black;
+  }
 }/*# sourceMappingURL=index.css.map */
