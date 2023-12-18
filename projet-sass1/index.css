@@ -444,6 +444,16 @@ footer ul {
   color: black;
 }
 
+@media screen and (max-width: 466px) {
+  .footer-social {
+    width: 100%;
+  }
+  .footer-social i {
+    padding: 1px;
+    margin: 1px;
+    background: red;
+  }
+}
 @media screen and (max-width: 768px) {
   .header h1 {
     font-size: 1.9rem;
@@ -485,10 +495,7 @@ footer ul {
 }
 @media screen and (max-width: 972px) {
   .footer-social i {
-    border: solid 1px lightgray;
-    border-radius: 50px;
     padding: 13px 13px;
     margin: 2px 2px;
-    color: black;
   }
 }/*# sourceMappingURL=index.css.map */
