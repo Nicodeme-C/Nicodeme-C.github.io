@@ -405,7 +405,7 @@ footer ul {
 .footer-email,
 .footer-social {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 50% 50%;
   padding: 50px 40px;
   border-bottom: solid 1px lightgrey;
   border-left: solid 1px lightgrey;
@@ -451,7 +451,6 @@ footer ul {
   .footer-social i {
     padding: 1px;
     margin: 1px;
-    background: red;
   }
 }
 @media screen and (max-width: 768px) {
@@ -474,10 +473,8 @@ footer ul {
     height: 25vh;
   }
   .section-1 p {
-    min-height: 7em; /* Définit la hauteur minimale à 7 lignes */
-    white-space: pre-line; /* Préserve les sauts de ligne dans le texte */
     line-height: 3; /* Hauteur de ligne (ajustez selon vos besoins) */
-    max-width: 30%;
+    max-width: 80%;
   }
   .section-2-3 {
     display: block;
