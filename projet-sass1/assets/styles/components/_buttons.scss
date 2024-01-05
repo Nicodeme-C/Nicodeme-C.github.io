@@ -21,19 +21,6 @@
 
 // Ancre
 
-.header i {
-  border: 1px solid $white;
-  padding: 10px;
-  border-radius: 100px;
-  text-decoration: none;
-  color: $white;
-  transition: 0.7s;
-
-  &:hover {
-    background: $colorhover;
-    border-color: $colorhover;
-  }
-}
 
 .footer-social i {
   transition: 0.5s;

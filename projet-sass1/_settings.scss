@@ -33,12 +33,37 @@ $black: rgb(23, 23, 23);
   src: url(./assets/fonts/Inter-ExtraBold.ttf);
 }
 
+//***************html***********************
+// Permet un défilement plus doux
+html {
+  scroll-behavior: smooth;
+}
+
 //*************** body *********************
 
 body {
   background: url(./assets/img/bg.jpg) no-repeat fixed center/cover;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+// animation opacity mais fait bugguer mon code
+
+// body::before {
+//   content: "";
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   background: $black;
+//   animation: animBefore 1.5s ease forwards;
+// }
+
+@keyframes animBefore {
+  to {
+    opacity: 0;
+  }
 }
 
 //**************Parametres generaux**************
