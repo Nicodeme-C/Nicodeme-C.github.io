@@ -176,18 +176,30 @@ header {
   position: relative;
 }
 header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
   margin: 100px auto;
   text-align: center;
   max-width: 500px;
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-animation: headerAnim 1.5s ease forwards;
+          animation: headerAnim 1.5s ease forwards;
 }
 @-webkit-keyframes headerAnim {
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes headerAnim {
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -219,7 +231,7 @@ header .header-content p,
 header .header-content i {
   margin-bottom: 30px;
 }
-header p {
+header .header-content p {
   color: rgb(241, 241, 241);
 }
 
