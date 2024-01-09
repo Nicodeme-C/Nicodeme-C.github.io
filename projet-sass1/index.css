@@ -238,12 +238,7 @@ header .header-content p {
 nav {
   background-color: rgba(255, 255, 255, 0.13);
   border: 1px solid transparent;
-  max-width: 1200px;
-  margin: 0 auto;
   height: 60px;
-}
-nav ul {
-  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,54 +248,32 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
 }
-
-.nav-left {
+nav .nav-left {
   font-size: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.nav-left li {
+nav .nav-left li {
   padding: 0px;
   background: transparent;
   -webkit-transition: 0.5s, padding 0.5s;
   transition: 0.5s, padding 0.5s;
   margin: 0 20px;
+  cursor: pointer;
 }
-.nav-left a {
-  -webkit-transition: background 0.5s, color 0.5s, padding 0.5s;
-  transition: background 0.5s, color 0.5s, padding 0.5s;
-}
-.nav-left a:hover {
-  background: lightgray;
-  color: white;
-  padding: 18px 15px;
-  margin: -50px 0px;
-}
-
-.nav-right {
+nav .nav-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.nav-right li {
+nav .nav-right li {
   margin: 0;
   margin: 0 20px;
+  cursor: pointer;
 }
-.nav-right a {
-  -webkit-transition: background 0.5s, color 0.5s, padding 0.5s;
-  transition: background 0.5s, color 0.5s, padding 0.5s;
-}
-.nav-right a:hover {
-  background: lightgray;
-  color: white;
-  padding: 18px 10px;
-  margin: -18px 0px;
-}
-
-i {
+nav i {
   color: rgb(241, 241, 241);
 }
 
