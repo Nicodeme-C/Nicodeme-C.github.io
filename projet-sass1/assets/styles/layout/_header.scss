@@ -1,15 +1,17 @@
 header {
+  min-height: 100vh;
+
   position: relative;
-  // min-height: 100vh;
 
   .header-content {
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     min-height: 100vh;
-    margin: 100px auto;
+    margin: 0px auto;
     text-align: center;
     max-width: 500px;
     opacity: 0;
