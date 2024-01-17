@@ -33,11 +33,12 @@ footer {
   padding: 50px 40px;
   border-bottom: solid 1px lightgrey;
   border-left: solid 1px lightgrey;
+  text-align: left;
 
   h5 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
 
     padding: 0 100px 0 0;
     margin: 0 auto;
@@ -47,16 +48,19 @@ footer {
 .footer-social {
   border-bottom: 0px;
 
-  h5 {
-    text-align: center;
+  li {
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
-  i {
+  a {
     border: solid 1px lightgray;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 15px 15px;
-    margin: 10px 10px;
+    margin: 0 12px;
     color: black;
+    display: flex;
+    justify-content: space-between;
   }
 }
