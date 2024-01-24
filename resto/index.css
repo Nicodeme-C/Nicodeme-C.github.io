@@ -1,1 +1,159 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "Allura-Regular";
+  src: url(./assets/fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(29, 29, 29);
+  -webkit-animation: animBefore 1.5s ease forwards;
+          animation: animBefore 1.5s ease forwards;
+}
+
+@-webkit-keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-block: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Poppins-Medium";
+  text-transform: uppercase;
+  color: rgb(238, 238, 238);
+  letter-spacing: 4px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Allura-Regular";
+  text-transform: capitalize;
+  color: rgb(103, 78, 63);
+  font-size: 1.8rem;
+}
+
+header {
+  background: url(./assets/img/bg-slider-06.jpg) no-repeat center/cover;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
+header nav {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0 auto;
+}
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(238, 238, 238);
+  font-family: "Allura-Regular";
+  font-size: 1.8rem;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(238, 238, 238);
+  padding: 30px 0px 100px;
+  margin: 0 auto;
+  width: 85%;
+}
+header nav .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .social a {
+  color: rgb(238, 238, 238);
+  padding: 0 10px;
+}
+header h1 {
+  margin-top: -15px;
+}
+header p {
+  color: rgb(238, 238, 238);
+  letter-spacing: 3px;
+  padding: 30px 0;
+  font-size: 0.8rem;
+}
+header .header-content {
+  margin-top: 100px;
+}
+
+.our-store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: red;
+}
+.our-store .our-store-left {
+  background: blue;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */

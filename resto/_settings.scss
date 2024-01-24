@@ -1,2 +1,90 @@
 // *************************** VARIABLES ******************************
+$colorwhite1: rgb(238, 238, 238);
+$colorgrey: rgba(163, 163, 163, 0.877);
+$colorgold: rgb(103, 78, 63);
+$black: rgb(29, 29, 29);
+
+// *************************** FONTS ******************************
+
+@font-face {
+  font-family: "Allura-Regular";
+  src: url(./assets/fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+// *************************** MIXINS ******************************
+
+//*******************************************************************
+
+// Permet un défilement plus doux
+html {
+  scroll-behavior: smooth;
+}
+
+//********************************BODY********************************
+
+body {
+  margin: 0 auto;
+  //   max-width: 1200px;
+  text-align: center;
+}
+
+// Animation ouverture de site mais fait bugguer mon code
+
+body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: $black;
+  animation: animBefore 1.5s ease forwards;
+}
+
+@keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+
+//********************************Parametres generaux********************************
+
+* {
+  // font-family: "Merriweather-Light";
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  margin-block: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+//******************Taille des titres*********************
+
+h1 {
+  font-family: "Poppins-Medium";
+  text-transform: uppercase;
+  color: $colorwhite1;
+  letter-spacing: 4px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Allura-Regular";
+  text-transform: capitalize;
+  color: $colorgold;
+  font-size: 1.8rem;
+}
+
 

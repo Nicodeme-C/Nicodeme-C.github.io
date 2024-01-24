@@ -1,0 +1,61 @@
+header {
+  background: url(./assets/img/bg-slider-06.jpg) no-repeat center/cover;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+
+  nav {
+    // width: 90%;
+    // min-width: 400px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: baseline;
+    margin: 0 auto;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: $colorwhite1;
+      font-family: "Allura-Regular";
+      font-size: 1.8rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $colorwhite1;
+
+      padding: 30px 0px 100px;
+      margin: 0 auto;
+      width: 85%;
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        color: $colorwhite1;
+        padding: 0 10px;
+      }
+    }
+  }
+  h1 {
+    margin-top: -15px;
+  }
+  p {
+    color: $colorwhite1;
+    letter-spacing: 3px;
+    padding: 30px 0;
+    font-size: 0.8rem;
+  }
+
+  .header-content {
+    margin-top: 100px;
+  }
+}
