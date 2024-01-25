@@ -30,6 +30,11 @@ body {
   text-decoration: none;
 }
 
+.icon {
+  height: 50px;
+  border-radius: 100px;
+}
+
 h1 {
   font-family: "Poppins-Medium";
   text-transform: uppercase;
@@ -43,6 +48,11 @@ h2 {
   text-transform: capitalize;
   color: #a67245;
   font-size: 2.1rem;
+}
+
+p {
+  font-family: "Roboto-Light";
+  font-size: 0.8rem;
 }
 
 header {
@@ -138,19 +148,27 @@ header .header-content {
 }
 
 .our-store {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: red;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #eeeeee;
 }
 .our-store .our-store-left {
-  background: blue;
-  padding: 0;
-  margin: 0;
+  border: 1px dashed #a67245;
+  padding: 20px;
+  margin: 20px;
+}
+.our-store .our-store-left h3 {
+  margin-top: -10px;
+  padding: 0 0 20px;
+}
+.our-store .our-store-left p {
+  margin: 0 0 50px;
+}
+.our-store .our-store-right {
+  background: url(./assets/img/store-01.jpg) no-repeat center/cover;
+  display: block;
+}
+
+.list-of-dish {
+  background: rgb(95, 70, 2);
 }/*# sourceMappingURL=index.css.map */
