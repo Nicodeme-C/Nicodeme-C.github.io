@@ -1,8 +1,15 @@
 // *************************** VARIABLES ******************************
-$colorwhite1: rgb(238, 238, 238);
-$colorgrey: rgba(163, 163, 163, 0.877);
-$colorgold: rgb(103, 78, 63);
-$black: rgb(29, 29, 29);
+
+$white: #eeeeee;
+$grey1: #babbb7;
+$grey2: #b6b6b6;
+$grey3: #a9a69e;
+$grey4: #757575;
+$grey5: #595956;
+$black1: #21201e;
+$black2: #000000;
+$brown1: #a67245;
+$brown2: #352c24;
 
 // *************************** FONTS ******************************
 
@@ -38,24 +45,24 @@ body {
   text-align: center;
 }
 
-// Animation ouverture de site mais fait bugguer mon code
+// // Animation ouverture de site mais fait bugguer mon code
 
-body::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: $black;
-  animation: animBefore 1.5s ease forwards;
-}
+// body::before {
+//   content: "";
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   background: $black1;
+//   animation: animBefore 1.5s ease forwards;
+// }
 
-@keyframes animBefore {
-  to {
-    opacity: 0;
-  }
-}
+// @keyframes animBefore {
+//   to {
+//     opacity: 0;
+//   }
+// }
 
 //********************************Parametres generaux********************************
 
@@ -75,7 +82,7 @@ body::before {
 h1 {
   font-family: "Poppins-Medium";
   text-transform: uppercase;
-  color: $colorwhite1;
+  color: $white;
   letter-spacing: 4px;
   font-size: 2rem;
 }
@@ -83,8 +90,6 @@ h1 {
 h2 {
   font-family: "Allura-Regular";
   text-transform: capitalize;
-  color: $colorgold;
-  font-size: 1.8rem;
+  color: $brown1;
+  font-size: 2.1rem;
 }
-
-
