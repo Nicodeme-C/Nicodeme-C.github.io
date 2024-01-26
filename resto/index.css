@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Allura-Regular";
   src: url(./assets/fonts/Allura-Regular.ttf);
@@ -164,11 +165,37 @@ header .header-content {
 .our-store .our-store-left p {
   margin: 0 0 50px;
 }
+.our-store .our-store-left .icon {
+  margin: 10px 0;
+}
+.our-store .our-store-left h4 {
+  font-family: "Poppins-Medium";
+}
+.our-store .our-store-left h5 {
+  font-family: "Roboto-Light";
+  font-weight: 100;
+  color: #a9a69e;
+}
 .our-store .our-store-right {
   background: url(./assets/img/store-01.jpg) no-repeat center/cover;
   display: block;
 }
 
+.menu {
+  position: relative;
+  background: url(./assets/img/bg-menu-01.jpg) no-repeat center/cover;
+  height: 800px;
+}
+
 .list-of-dish {
-  background: rgb(95, 70, 2);
+  position: absolute;
+  width: 1000px;
+  background: #eeeeee;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  top: 100px;
+  left: 50%; /* Centre la liste des plats horizontalement */
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); /* Ajuste la position en fonction de la moitié de la largeur */
+  border: solid 2px;
 }/*# sourceMappingURL=index.css.map */

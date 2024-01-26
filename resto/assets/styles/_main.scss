@@ -19,6 +19,17 @@
     }
 
     .icon {
+      margin: 10px 0;
+    }
+
+    h4 {
+      font-family: "Poppins-Medium";
+    }
+
+    h5 {
+      font-family: "Roboto-Light";
+      font-weight: 100;
+      color: $grey3;
     }
   }
 
@@ -30,6 +41,21 @@
   }
 }
 
+.menu {
+  position: relative;
+  background: url(./assets/img/bg-menu-01.jpg) no-repeat center/cover;
+  height: 800px;
+}
 .list-of-dish {
-  background: rgb(95, 70, 2);
+  position: absolute;
+  width: 1000px;
+  background: $white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  top: 100px;
+  left: 50%; /* Centre la liste des plats horizontalement */
+  transform: translateX(
+    -50%
+  ); /* Ajuste la position en fonction de la moitié de la largeur */
+  border: solid 2px;
 }
