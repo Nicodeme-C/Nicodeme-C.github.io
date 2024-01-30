@@ -1,3 +1,5 @@
+//OUR STORE
+
 .our-store {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -9,8 +11,12 @@
     padding: 20px;
     margin: 20px;
 
+    h2 {
+      margin-top: 10px;
+    }
+
     h3 {
-      margin-top: -10px;
+      margin: -10px 0;
       padding: 0 0 20px;
     }
 
@@ -41,21 +47,78 @@
   }
 }
 
+//MENU
+
 .menu {
   position: relative;
   background: url(./assets/img/bg-menu-01.jpg) no-repeat center/cover;
-  height: 800px;
+  // background: $black1;
+  height: 1100px;
+  margin-top: 0px;
+
+  .menu-top {
+    height: 300px;
+    background: $black1;
+
+    h2 {
+      padding-top: 50px;
+    }
+  }
+  img {
+    padding: 20px 0;
+  }
+
+  .type-of-menu {
+    max-width: 1000px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+
+    margin: 0 auto;
+  }
 }
 .list-of-dish {
+  margin: 0 auto;
   position: absolute;
-  width: 1000px;
+  width: 75%;
+  max-width: 1000px;
   background: $white;
   display: grid;
   grid-template-columns: 50% 50%;
-  top: 100px;
+  justify-content: start;
+  top: 200px;
   left: 50%; /* Centre la liste des plats horizontalement */
   transform: translateX(
     -50%
   ); /* Ajuste la position en fonction de la moitié de la largeur */
   border: solid 2px;
+
+  li {
+    // max-width: 1000px;
+    // display: flex;
+
+    // align-items: center;
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    align-items: center;
+    border-bottom: 1px dashed $grey1;
+
+    img {
+      border-radius: 100px;
+    }
+
+    div {
+      margin: 0 10px 0 10px;
+    }
+
+    .dish-item-content {
+      text-align: left;
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
 }
