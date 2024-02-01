@@ -43,6 +43,7 @@ body {
   margin: 0 auto;
   //   max-width: 1200px;
   text-align: center;
+  background: $black1;
 }
 
 //********************************Parametres generaux********************************
@@ -78,6 +79,16 @@ h2 {
   text-transform: capitalize;
   color: $brown1;
   font-size: 2.1rem;
+}
+
+h3 {
+  font-family: "Allura-Regular";
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: "Poppins-Medium";
+  text-transform: capitalize;
 }
 
 p {
