@@ -176,9 +176,89 @@
 
   .time-content {
     border: dashed 1px;
+
+    .time-open {
+      color: $brown1;
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    div {
+      line-height: 1.5;
+    }
+
+    .time-phone {
+      color: $brown1;
+      font-size: 1rem;
+      font-weight: 900;
+    }
   }
+
+  //**********************************Reservations*******************************
 
   .reservation {
     background: $white;
+
+    h3 {
+      font-weight: 400;
+    }
+
+    h4 {
+      color: $black1;
+      font-size: 2rem;
+      line-height: 3;
+    }
+
+    img {
+      margin-bottom: 50px;
+    }
+  }
+
+  // ***********************************Formulaire***************************************
+
+  form {
+    max-width: 750px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+
+    .formulaire {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      gap: 15px;
+    }
+  }
+
+  /* Styles pour le conteneur du formulaire */
+
+  /* Styles pour les champs de saisie */
+  select,
+  input[type="date"],
+  input[type="time"],
+  input[type="text"],
+  input[type="email"] {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: $white;
+
+    &:focus {
+      border-bottom: 1px solid $brown1;
+    }
+  }
+
+  /* Style particulier pour le bouton de soumission */
+  .button {
+    margin-top: 100px;
+    background-color: $black1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    cursor: pointer;
+    letter-spacing: 3px;
   }
 }
+
+

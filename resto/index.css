@@ -49,11 +49,13 @@ h2 {
   text-transform: capitalize;
   color: #a67245;
   font-size: 2.1rem;
+  font-weight: 400;
 }
 
 h3 {
   font-family: "Allura-Regular";
   text-transform: capitalize;
+  font-weight: 400;
 }
 
 h4 {
@@ -299,6 +301,9 @@ header .header-content {
   margin: 80px auto;
   line-height: 4;
   max-width: 1200px;
+  /* Styles pour le conteneur du formulaire */
+  /* Styles pour les champs de saisie */
+  /* Style particulier pour le bouton de soumission */
 }
 .time-and-reservation h3 {
   color: #a67245;
@@ -315,6 +320,69 @@ header .header-content {
 .time-and-reservation .time-content {
   border: dashed 1px;
 }
+.time-and-reservation .time-content .time-open {
+  color: #a67245;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.time-and-reservation .time-content div {
+  line-height: 1.5;
+}
+.time-and-reservation .time-content .time-phone {
+  color: #a67245;
+  font-size: 1rem;
+  font-weight: 900;
+}
 .time-and-reservation .reservation {
   background: #eeeeee;
+}
+.time-and-reservation .reservation h3 {
+  font-weight: 400;
+}
+.time-and-reservation .reservation h4 {
+  color: #21201e;
+  font-size: 2rem;
+  line-height: 3;
+}
+.time-and-reservation .reservation img {
+  margin-bottom: 50px;
+}
+.time-and-reservation form {
+  max-width: 750px; /* Ajustez la largeur selon vos besoins */
+  margin: 0 auto;
+}
+.time-and-reservation form .formulaire {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 15px;
+}
+.time-and-reservation select,
+.time-and-reservation input[type=date],
+.time-and-reservation input[type=time],
+.time-and-reservation input[type=text],
+.time-and-reservation input[type=email] {
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: #eeeeee;
+}
+.time-and-reservation select:focus,
+.time-and-reservation input[type=date]:focus,
+.time-and-reservation input[type=time]:focus,
+.time-and-reservation input[type=text]:focus,
+.time-and-reservation input[type=email]:focus {
+  border-bottom: 1px solid #a67245;
+}
+.time-and-reservation .button {
+  margin-top: 100px;
+  background-color: #21201e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 50px;
+  cursor: pointer;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=index.css.map */
