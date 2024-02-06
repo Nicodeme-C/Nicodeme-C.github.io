@@ -200,6 +200,7 @@
     background: $white;
 
     h3 {
+      padding-top: 50px;
       font-weight: 400;
     }
 
@@ -210,7 +211,7 @@
     }
 
     img {
-      margin-bottom: 50px;
+      margin-bottom: 10px;
     }
   }
 
@@ -249,7 +250,7 @@
 
   /* Style particulier pour le bouton de soumission */
   .button {
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: $black1;
     color: white;
     padding: 10px;
@@ -261,4 +262,4 @@
   }
 }
 
-
+// ***********************************Event***************************************

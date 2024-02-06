@@ -337,6 +337,7 @@ header .header-content {
   background: #eeeeee;
 }
 .time-and-reservation .reservation h3 {
+  padding-top: 50px;
   font-weight: 400;
 }
 .time-and-reservation .reservation h4 {
@@ -345,7 +346,7 @@ header .header-content {
   line-height: 3;
 }
 .time-and-reservation .reservation img {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .time-and-reservation form {
   max-width: 750px; /* Ajustez la largeur selon vos besoins */
@@ -376,7 +377,7 @@ header .header-content {
   border-bottom: 1px solid #a67245;
 }
 .time-and-reservation .button {
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: #21201e;
   color: white;
   padding: 10px;
