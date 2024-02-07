@@ -263,3 +263,41 @@
 }
 
 // ***********************************Event***************************************
+.event {
+  h3 {
+    font-size: 2.5rem;
+    color: $brown1;
+  }
+
+  h4 {
+    font-size: 2rem;
+    color: $white;
+    margin: -10px 0 20px 0;
+  }
+
+  img {
+    margin: 0 0 20px 0;
+  }
+
+  .all-events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "left1 right1" "left2 right1";
+
+    .left-part-event-1 {
+      background: green;
+      grid-area: left1;
+    }
+
+    .left-part-event-2 {
+      background: blue;
+      grid-area: left2;
+    }
+
+    .right-part-event {
+      grid-area: right1;
+      background: red;
+    }
+  }
+}

@@ -386,4 +386,35 @@ header .header-content {
   padding: 15px 50px;
   cursor: pointer;
   letter-spacing: 3px;
+}
+
+.event h3 {
+  font-size: 2.5rem;
+  color: #a67245;
+}
+.event h4 {
+  font-size: 2rem;
+  color: #eeeeee;
+  margin: -10px 0 20px 0;
+}
+.event img {
+  margin: 0 0 20px 0;
+}
+.event .all-events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "left1 right1" "left2 right1";
+}
+.event .all-events .left-part-event-1 {
+  background: green;
+  grid-area: left1;
+}
+.event .all-events .left-part-event-2 {
+  background: blue;
+  grid-area: left2;
+}
+.event .all-events .right-part-event {
+  grid-area: right1;
+  background: red;
 }/*# sourceMappingURL=index.css.map */
