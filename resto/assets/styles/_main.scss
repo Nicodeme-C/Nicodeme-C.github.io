@@ -284,6 +284,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "left1 right1" "left2 right1";
+    margin-bottom: 50px;
 
     .left-part-event-1 {
       background: green;
@@ -296,6 +297,10 @@
     }
 
     .right-part-event {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 400px;
       grid-area: right1;
       background: red;
     }
