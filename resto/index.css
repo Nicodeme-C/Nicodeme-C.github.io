@@ -63,6 +63,11 @@ h4 {
   text-transform: capitalize;
 }
 
+h6 {
+  font-family: "Roboto-Light";
+  text-transform: capitalize;
+}
+
 p {
   font-family: "Roboto-Light";
   font-size: 0.8rem;
@@ -401,31 +406,87 @@ header .header-content {
   margin: 0 0 20px 0;
 }
 .event .all-events {
+  height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "left1 right1" "left2 right1";
   margin-bottom: 50px;
 }
-.event .all-events .left-part-event-1 {
+.event .all-events h6 {
+  font-size: 1.2rem;
+  font-family: "Roboto-Light";
+}
+.event .all-events span {
+  font-family: "Roboto-Light";
+  font-size: 1rem;
+}
+.event .all-events .date-event-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(./assets/img/event-01.jpg) no-repeat center/cover;
+  color: #eeeeee;
+}
+.event .all-events .date-event-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(./assets/img/event-02.jpg) no-repeat center/cover;
+  color: #eeeeee;
+}
+.event .all-events .date-event-3 {
   background: green;
+}
+.event .all-events .date-event-left {
+  top: 27%;
+  left: 35%;
+  position: absolute;
+  margin: 0 auto;
+  background: #21201e;
+  padding: 15px 15px;
+}
+.event .all-events .text-event,
+.event .all-events .text-event-right {
+  background: #eeeeee;
+  text-align: left;
+  padding-left: 20px;
+}
+.event .all-events .text-event h5,
+.event .all-events .text-event span,
+.event .all-events .text-event button,
+.event .all-events .text-event-right h5,
+.event .all-events .text-event-right span,
+.event .all-events .text-event-right button {
+  margin: 20px 0;
+}
+.event .all-events .text-event h5,
+.event .all-events .text-event-right h5 {
+  font-family: "Roboto-Light";
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.event .all-events .left-part-event-1,
+.event .all-events .left-part-event-2 {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.event .all-events .left-part-event-1 {
+  background: #21201e;
   grid-area: left1;
 }
 .event .all-events .left-part-event-2 {
-  background: blue;
+  background: #21201e;
   grid-area: left2;
 }
 .event .all-events .right-part-event {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 400px;
+  height: 100%;
+  width: 100%;
   grid-area: right1;
-  background: red;
+  background: url(./assets/img/event-03.jpg) no-repeat center/cover;
+  color: #eeeeee;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
