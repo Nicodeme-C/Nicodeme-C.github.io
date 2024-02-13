@@ -492,14 +492,17 @@ header .header-content {
 }
 .event .right-part-event .right-part-event-container .text-event-right {
   background: #eeeeee;
-  text-align: left;
+  text-align: center;
   color: #21201e;
-  padding-left: 20px;
+  padding: 0px 20px;
 }
 .event .right-part-event .right-part-event-container .text-event-right h5,
 .event .right-part-event .right-part-event-container .text-event-right span,
 .event .right-part-event .right-part-event-container .text-event-right button {
-  margin: 20px 0;
+  margin: 10px 0;
+}
+.event .right-part-event .right-part-event-container .text-event-right .buy-tickets {
+  margin: 80px 0;
 }
 .event .right-part-event .right-part-event-container .text-event-right h5 {
   font-family: "Roboto-Light";
@@ -507,11 +510,12 @@ header .header-content {
   font-weight: 100;
 }
 .event .right-part-event .date-event-right {
-  top: 2%;
+  top: 7%;
   left: 45%;
   position: absolute;
   margin: 0 auto;
   background: #21201e;
   padding: 15px 15px;
   color: #eeeeee;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
