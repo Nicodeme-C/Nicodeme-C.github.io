@@ -280,13 +280,13 @@
   }
 
   .all-events {
-    height: 350px;
-    max-width: 1200px;
+    height: 600px;
+    max-width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "left1 right1" "left2 right1";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "left1 left1 right1" "left2 left2 right1";
     margin-bottom: 50px;
 
     h6 {
@@ -317,10 +317,6 @@
       color: $white;
     }
 
-    .date-event-3 {
-      background: green;
-    }
-
     .date-event-left {
       top: 27%;
       left: 35%;
@@ -329,49 +325,88 @@
       background: $black1;
       padding: 15px 15px;
     }
+  }
+  // LEFT PART EVENT
 
-    .text-event,
-    .text-event-right {
+  .text-event {
+    background: $white;
+    text-align: left;
+    padding-left: 20px;
+    color: $black1;
+
+    h5,
+    span,
+    button {
+      margin: 20px 0;
+    }
+    h5 {
+      font-family: "Roboto-Light";
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
+  }
+
+  .left-part-event-1,
+  .left-part-event-2 {
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+
+  .left-part-event-1 {
+    background: $black1;
+    grid-area: left1;
+  }
+
+  .left-part-event-2 {
+    background: $black1;
+    grid-area: left2;
+  }
+
+  // RIGHT PART EVENT
+
+  .right-part-event {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    grid-area: right1;
+    background: url(./assets/img/event-03.jpg) no-repeat center/cover;
+    color: $white;
+    margin: 0 auto;
+    padding: 30px 15px;
+
+    .right-part-event-container {
       background: $white;
-      text-align: left;
-      padding-left: 20px;
-
-      h5,
-      span,
-      button {
-        margin: 20px 0;
-      }
-      h5 {
-        font-family: "Roboto-Light";
-        font-size: 1.2rem;
-        font-weight: 100;
-      }
-    }
-
-    .left-part-event-1,
-    .left-part-event-2 {
-      padding: 10px 10px;
-      display: grid;
-      grid-template-columns: 35% 65%;
-    }
-
-    .left-part-event-1 {
-      background: $black1;
-      grid-area: left1;
-    }
-
-    .left-part-event-2 {
-      background: $black1;
-      grid-area: left2;
-    }
-
-    .right-part-event {
-      height: 100%;
       width: 100%;
-      grid-area: right1;
-      background: url(./assets/img/event-03.jpg) no-repeat center/cover;
-      color: $white;
+      height: 100%;
+
+      .text-event-right {
+        background: $white;
+        text-align: left;
+        color: $black1;
+        padding-left: 20px;
+
+        h5,
+        span,
+        button {
+          margin: 20px 0;
+        }
+        h5 {
+          font-family: "Roboto-Light";
+          font-size: 1.2rem;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .date-event-right {
+      top: 2%;
+      left: 45%;
+      position: absolute;
       margin: 0 auto;
+      background: $black1;
+      padding: 15px 15px;
+      color: $white;
     }
   }
 }
