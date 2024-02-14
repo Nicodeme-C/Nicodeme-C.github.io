@@ -73,6 +73,16 @@ p {
   font-size: 0.8rem;
 }
 
+button {
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  color: #a67245;
+}
+
 header {
   background: url(./assets/img/bg-slider-06.jpg) no-repeat center/cover;
   height: 800px;
@@ -391,6 +401,11 @@ header .header-content {
   padding: 15px 50px;
   cursor: pointer;
   letter-spacing: 3px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.time-and-reservation .button:hover {
+  background: #a67245;
 }
 
 .event h3 {
@@ -445,37 +460,41 @@ header .header-content {
   background: #21201e;
   padding: 15px 15px;
 }
-.event .text-event {
+.event .all-events .text-event {
   background: #eeeeee;
   text-align: left;
   padding-left: 20px;
   color: #21201e;
 }
-.event .text-event h5,
-.event .text-event span,
-.event .text-event button {
+.event .all-events .text-event h5,
+.event .all-events .text-event span,
+.event .all-events .text-event button {
   margin: 20px 0;
+  border: none;
 }
-.event .text-event h5 {
+.event .all-events .text-event button {
+  font-weight: 700;
+}
+.event .all-events .text-event h5 {
   font-family: "Roboto-Light";
   font-size: 1.2rem;
   font-weight: 100;
 }
-.event .left-part-event-1,
-.event .left-part-event-2 {
+.event .all-events .left-part-event-1,
+.event .all-events .left-part-event-2 {
   padding: 10px 15px;
   display: grid;
   grid-template-columns: 35% 65%;
 }
-.event .left-part-event-1 {
+.event .all-events .left-part-event-1 {
   background: #21201e;
   grid-area: left1;
 }
-.event .left-part-event-2 {
+.event .all-events .left-part-event-2 {
   background: #21201e;
   grid-area: left2;
 }
-.event .right-part-event {
+.event .all-events .right-part-event {
   position: relative;
   height: 100%;
   width: 100%;
@@ -485,31 +504,32 @@ header .header-content {
   margin: 0 auto;
   padding: 30px 15px;
 }
-.event .right-part-event .right-part-event-container {
-  background: #eeeeee;
+.event .all-events .right-part-event .text-event-right {
   width: 100%;
   height: 100%;
-}
-.event .right-part-event .right-part-event-container .text-event-right {
   background: #eeeeee;
   text-align: center;
   color: #21201e;
-  padding: 0px 20px;
 }
-.event .right-part-event .right-part-event-container .text-event-right h5,
-.event .right-part-event .right-part-event-container .text-event-right span,
-.event .right-part-event .right-part-event-container .text-event-right button {
-  margin: 10px 0;
+.event .all-events .right-part-event .text-event-right h5,
+.event .all-events .right-part-event .text-event-right span {
+  padding: 100px 0 40px 0;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
 }
-.event .right-part-event .right-part-event-container .text-event-right .buy-tickets {
-  margin: 80px 0;
+.event .all-events .right-part-event .text-event-right button {
+  margin: 70px 0 0 0;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
 }
-.event .right-part-event .right-part-event-container .text-event-right h5 {
+.event .all-events .right-part-event .text-event-right h5 {
   font-family: "Roboto-Light";
   font-size: 1.2rem;
   font-weight: 100;
 }
-.event .right-part-event .date-event-right {
+.event .all-events .right-part-event .date-event-right {
   top: 7%;
   left: 45%;
   position: absolute;

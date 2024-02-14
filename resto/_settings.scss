@@ -105,3 +105,12 @@ p {
   //   color: $brown1;
   //   font-size: 2.1rem;
 }
+
+button {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  color: $brown1;
+}
