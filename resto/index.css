@@ -538,4 +538,10 @@ header .header-content {
   padding: 15px 15px;
   color: #eeeeee;
   text-align: center;
+}
+
+.before_footer .before_content {
+  background: #eeeeee;
+  max-width: 1100px;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
