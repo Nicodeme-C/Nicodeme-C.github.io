@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Allura-Regular";
   src: url(./assets/fonts/Allura-Regular.ttf);
@@ -540,8 +541,50 @@ header .header-content {
   text-align: center;
 }
 
+.before_footer {
+  position: relative;
+}
 .before_footer .before_content {
   background: #eeeeee;
   max-width: 1100px;
   margin: 0 auto;
+  height: 300px;
+  padding: 50px;
+}
+.before_footer .before_content .icon {
+  position: absolute;
+  top: -25px;
+  left: 720px;
+}
+.before_footer .before_content p,
+.before_footer .before_content h4,
+.before_footer .before_content h5 {
+  margin: 0 0 20px 0;
+}
+.before_footer .before_content h4 {
+  font-family: "Roboto-Light";
+  font-size: 1rem;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+.before_footer .before_content h5 {
+  color: #a67245;
+  font-family: "Roboto-Light";
+}
+.before_footer .before_content .quote {
+  line-height: 2;
+}
+.before_footer .before_content .quote:before {
+  content: "❝"; /* Guillemet ouvrant stylisé */
+  font-size: 15px; /* Taille du guillemet */
+  font-weight: 900;
+  color: #555; /* Couleur du guillemet */
+  margin-right: 5px; /* Marge à droite du guillemet */
+}
+.before_footer .before_content .quote:after {
+  content: "❞"; /* Guillemet fermant stylisé */
+  font-size: 15px; /* Taille du guillemet */
+  font-weight: 900;
+  color: #555; /* Couleur du guillemet */
+  margin-left: 5px; /* Marge à gauche du guillemet */
 }/*# sourceMappingURL=index.css.map */
