@@ -429,7 +429,7 @@ header .header-content {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "left1 left1 right1" "left2 left2 right1";
-  margin-bottom: 50px;
+  margin-bottom: -100px;
 }
 .event .all-events h6 {
   font-size: 1.2rem;
@@ -543,6 +543,8 @@ header .header-content {
 
 .before_footer {
   position: relative;
+  z-index: 1;
+  margin-bottom: 200px;
 }
 .before_footer .before_content {
   background: #eeeeee;
@@ -550,11 +552,11 @@ header .header-content {
   margin: 0 auto;
   height: 300px;
   padding: 50px;
+  position: relative;
 }
 .before_footer .before_content .icon {
   position: absolute;
   top: -25px;
-  left: 720px;
 }
 .before_footer .before_content p,
 .before_footer .before_content h4,
@@ -587,4 +589,38 @@ header .header-content {
   font-weight: 900;
   color: #555; /* Couleur du guillemet */
   margin-left: 5px; /* Marge à gauche du guillemet */
+}
+.before_footer .gmap {
+  position: absolute; /* Assure que la carte est positionnée absolument à l'intérieur de la section */
+  top: 195px;
+  left: 0;
+  width: 100%; /* Assure que la carte occupe toute la largeur de son conteneur */
+  height: 100%; /* Assure que la carte occupe toute la hauteur de son conteneur */
+  z-index: -1; /* Assure que la carte est derrière le contenu */
+}
+.before_footer .gmap iframe {
+  width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
+  height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
+  pointer-events: none;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer_left_part {
+  background: #000000;
+  color: #eeeeee;
+  text-align: left;
+  line-height: 2;
+  padding: 20px 50px 50px 150px;
+}
+.footer_left_part h5 {
+  font-family: "Allura-Regular";
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #a67245;
 }/*# sourceMappingURL=index.css.map */

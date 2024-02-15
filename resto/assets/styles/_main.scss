@@ -57,7 +57,6 @@
 .menu {
   position: relative;
   background: url(./assets/img/bg-menu-01.jpg) no-repeat center/cover;
-  // background: $black1;
   height: 1000px;
   margin-top: 0px;
 
@@ -292,7 +291,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "left1 left1 right1" "left2 left2 right1";
-    margin-bottom: 50px;
+    margin-bottom: -100px;
 
     h6 {
       font-size: 1.2rem;
@@ -433,6 +432,8 @@
 
 .before_footer {
   position: relative;
+  z-index: 1;
+  margin-bottom: 200px;
 
   .before_content {
     background: $white;
@@ -440,11 +441,11 @@
     margin: 0 auto;
     height: 300px;
     padding: 50px;
+    position: relative;
 
     .icon {
       position: absolute;
       top: -25px;
-      left: 720px;
     }
 
     p,
@@ -484,5 +485,49 @@
         margin-left: 5px; /* Marge à gauche du guillemet */
       }
     }
+  }
+
+  // .gmap {
+  //   position: absolute;
+  //   top: 180px;
+
+  //   z-index: -1;
+
+  .gmap {
+    position: absolute; /* Assure que la carte est positionnée absolument à l'intérieur de la section */
+    top: 195px;
+    left: 0;
+    width: 100%; /* Assure que la carte occupe toute la largeur de son conteneur */
+    height: 100%; /* Assure que la carte occupe toute la hauteur de son conteneur */
+    z-index: -1; /* Assure que la carte est derrière le contenu */
+  }
+
+  .gmap iframe {
+    width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
+    height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
+    pointer-events: none;
+  }
+}
+
+//FOOTER
+footer {
+  display: grid;
+  grid-template-columns: 45% 55%;
+
+  width: 100%;
+  margin: 0 auto;
+}
+.footer_left_part {
+  background: $black2;
+  color: $white;
+  text-align: left;
+  line-height: 2;
+  padding: 20px 50px 50px 150px;
+
+  h5 {
+    font-family: "Allura-Regular";
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: $brown1;
   }
 }
