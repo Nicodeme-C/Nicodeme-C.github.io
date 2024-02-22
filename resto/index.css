@@ -611,14 +611,19 @@ footer {
   margin: 0 auto;
 }
 
-.footer_left_part {
+.footer_left {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  background: #000000;
+}
+
+.footer_left_container {
   background: #000000;
   color: #eeeeee;
   text-align: left;
   line-height: 2;
-  padding: 20px 50px 50px 150px;
 }
-.footer_left_part h5 {
+.footer_left_container h5 {
   font-family: "Allura-Regular";
   font-size: 1.8rem;
   font-weight: 100;

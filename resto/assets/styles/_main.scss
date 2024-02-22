@@ -517,12 +517,18 @@ footer {
   width: 100%;
   margin: 0 auto;
 }
-.footer_left_part {
+
+.footer_left {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  background: $black2;
+}
+.footer_left_container {
   background: $black2;
   color: $white;
   text-align: left;
   line-height: 2;
-  padding: 20px 50px 50px 150px;
+  // padding: 20px 50px 50px 150px;
 
   h5 {
     font-family: "Allura-Regular";
