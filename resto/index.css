@@ -617,13 +617,17 @@ footer {
   background: #000000;
 }
 
-.footer_left_container {
+.footer_left_part {
   background: #000000;
   color: #eeeeee;
   text-align: left;
   line-height: 2;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
 }
-.footer_left_container h5 {
+.footer_left_part h5 {
+  margin-top: 40px;
   font-family: "Allura-Regular";
   font-size: 1.8rem;
   font-weight: 100;
@@ -631,9 +635,33 @@ footer {
 }
 
 .footer_right_part {
-  padding: 20px 50px 50px 150px;
+  font-family: "Roboto-Light";
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #eeeeee;
   text-align: left;
   line-height: 2;
-  padding: 20px 50px 50px 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+.footer_right_part h5 {
+  margin-top: 50px;
+}
+.footer_right_part input {
+  background: transparent;
+  border: solid 1px #000000;
+  padding: 10px 150px 10px 10px;
+}
+.footer_right_part .footer_social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.footer_right_part .footer_social i {
+  margin-left: 50px;
+  color: #a9a69e;
 }/*# sourceMappingURL=index.css.map */

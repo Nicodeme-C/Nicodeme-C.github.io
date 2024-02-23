@@ -523,14 +523,17 @@ footer {
   grid-template-columns: 10% 90%;
   background: $black2;
 }
-.footer_left_container {
+.footer_left_part {
   background: $black2;
   color: $white;
   text-align: left;
   line-height: 2;
-  // padding: 20px 50px 50px 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
 
   h5 {
+    margin-top: 40px;
     font-family: "Allura-Regular";
     font-size: 1.8rem;
     font-weight: 100;
@@ -539,9 +542,39 @@ footer {
 }
 
 .footer_right_part {
-  padding: 20px 50px 50px 150px;
+  font-family: "Roboto-Light";
+  font-size: 1.2rem;
+  font-weight: 600;
   color: $white;
   text-align: left;
   line-height: 2;
-  padding: 20px 50px 50px 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+
+  h5 {
+    margin-top: 50px;
+  }
+
+  input {
+    background: transparent;
+    border: solid 1px $black2;
+    padding: 10px 150px 10px 10px;
+  }
+
+  .footer_social {
+    ul {
+      display: flex;
+
+      align-items: baseline;
+    }
+
+    h5 {
+    }
+
+    i {
+      margin-left: 50px;
+      color: $grey3;
+    }
+  }
 }
