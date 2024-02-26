@@ -1,13 +1,12 @@
 header {
   background: url(./assets/img/bg-slider-06.jpg) no-repeat center/cover;
-  height: 800px;
+  height: 100vh;
   padding: 0;
   margin: 0;
 
   nav {
     font-family: "Roboto-Light";
-    // width: 90%;
-    // min-width: 400px;
+    height: 12vh;
     max-width: 80%;
     display: grid;
     grid-template-columns: 10% 80% 10%;
