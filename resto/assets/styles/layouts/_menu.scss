@@ -1,0 +1,108 @@
+//*************************MENU***************************************
+
+.menu {
+  position: relative;
+  background: url(./assets/img/bg-menu-01.jpg) no-repeat center/cover;
+  height: 1000px;
+  margin-top: 0px;
+
+  @media screen and (max-width: 768px) {
+    height: 1500px;
+  }
+
+  .menu-top {
+    height: 300px;
+    background: $black1;
+
+    h2 {
+      padding-top: 50px;
+    }
+  }
+  img {
+    padding: 20px 0;
+  }
+
+  .type-of-menu {
+    max-width: 1000px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+
+    margin: 0 auto;
+
+    li {
+      font-family: "Roboto-Light";
+      padding-bottom: 5px;
+      border-bottom: 1px solid;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(1.3);
+        color: $brown1;
+      }
+    }
+  }
+}
+.list-of-dish {
+  border-top: solid 4px $brown1;
+  padding: 20px;
+
+  margin: 0 auto;
+  position: absolute;
+  width: 75%;
+  max-width: 1000px;
+  background: $white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: start;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    align-items: center;
+    border-bottom: 1px dashed $grey1;
+    // width: 94%;
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 20% 70% 10%;
+    }
+
+    img {
+      border-radius: 100px;
+    }
+
+    div {
+      margin: 0 10px 0 10px;
+    }
+
+    .dish-item-content {
+      padding: 0 10px;
+      text-align: left;
+
+      h3 {
+        font-size: 0.8rem;
+
+        font-family: "Poppins-Medium";
+        font-weight: 300;
+      }
+    }
+
+    .price-of-dish {
+      p {
+        font-size: 1rem;
+        color: $brown1;
+        font-weight: 700;
+      }
+    }
+  }
+}

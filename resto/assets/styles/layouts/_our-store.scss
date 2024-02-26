@@ -1,0 +1,66 @@
+//*************************OUR STORE***************************************
+
+.our-store {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: $white;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 100% 0%;
+  }
+
+  .our-store-left {
+    // background: rgb(0, 174, 255);
+    border: 1px dashed $brown1;
+    padding: 20px;
+    margin: 20px;
+
+    h2 {
+      margin-top: 10px;
+    }
+
+    h3 {
+      font-family: "Poppins-Medium";
+      color: $black2;
+      font-size: 1.2rem;
+      margin: -10px 0;
+      padding: 0 0 20px;
+    }
+
+    p {
+      margin: 0 0 50px;
+      line-height: 1.5;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    .icon {
+      margin: 10px 0;
+    }
+
+    h4 {
+      font-family: "Poppins-Medium";
+      font-size: 1rem;
+      color: $black2;
+    }
+
+    h5 {
+      font-family: "Roboto-Light";
+      font-weight: 100;
+      color: $grey3;
+    }
+  }
+
+  .our-store-right {
+    background: url(./assets/img/store-01.jpg) no-repeat center/cover;
+    // height: 100%;
+    // width: 100%;
+    display: block;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

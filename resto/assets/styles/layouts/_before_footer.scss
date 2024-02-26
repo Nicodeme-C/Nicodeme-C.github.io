@@ -1,0 +1,92 @@
+//BEFORE FOOTER
+
+.before_footer {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 200px;
+
+  @media screen and (max-width: 768px) {
+  }
+
+  .before_content {
+    background: $white;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 50px;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+      height: 100%;
+      width: 90%;
+    }
+
+    .icon {
+      position: absolute;
+      top: -25px;
+    }
+
+    p,
+    h4,
+    h5 {
+      margin: 0 0 20px 0;
+    }
+
+    h4 {
+      font-family: "Roboto-Light";
+      font-size: 1rem;
+      color: $black2;
+      letter-spacing: 0.5px;
+    }
+
+    h5 {
+      color: $brown1;
+      font-family: "Roboto-Light";
+    }
+
+    .quote {
+      line-height: 2;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+      }
+
+      &:before {
+        content: "\275D"; /* Guillemet ouvrant stylisé */
+        font-size: 15px; /* Taille du guillemet */
+        font-weight: 900;
+        color: #555; /* Couleur du guillemet */
+        margin-right: 5px; /* Marge à droite du guillemet */
+      }
+
+      &:after {
+        content: "\275E"; /* Guillemet fermant stylisé */
+        font-size: 15px; /* Taille du guillemet */
+        font-weight: 900;
+        color: #555; /* Couleur du guillemet */
+        margin-left: 5px; /* Marge à gauche du guillemet */
+      }
+    }
+  }
+
+  // .gmap {
+  //   position: absolute;
+  //   top: 180px;
+
+  //   z-index: -1;
+
+  .gmap {
+    position: absolute; /* Assure que la carte est positionnée absolument à l'intérieur de la section */
+    top: 195px;
+    left: 0;
+    width: 100%; /* Assure que la carte occupe toute la largeur de son conteneur */
+    height: 100%; /* Assure que la carte occupe toute la hauteur de son conteneur */
+    z-index: -1; /* Assure que la carte est derrière le contenu */
+  }
+
+  .gmap iframe {
+    width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
+    height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
+    pointer-events: none;
+  }
+}
