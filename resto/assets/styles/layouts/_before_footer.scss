@@ -76,6 +76,7 @@
   //   z-index: -1;
 
   .gmap {
+    background: url(./assets/img/gmap.jpg) no-repeat center/cover;
     position: absolute; /* Assure que la carte est positionnée absolument à l'intérieur de la section */
     top: 195px;
     left: 0;
@@ -84,9 +85,9 @@
     z-index: -1; /* Assure que la carte est derrière le contenu */
   }
 
-  .gmap iframe {
-    width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
-    height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
-    pointer-events: none;
-  }
+  // .gmap iframe {
+  //   width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
+  //   height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
+  //   pointer-events: none;
+  // }
 }
