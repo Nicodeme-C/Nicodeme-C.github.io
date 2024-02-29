@@ -24,6 +24,8 @@
     .icon {
       position: absolute;
       top: -25px;
+      // left: 50px;
+      // transform: translate(X);
     }
 
     p,
@@ -84,10 +86,4 @@
     height: 100%; /* Assure que la carte occupe toute la hauteur de son conteneur */
     z-index: -1; /* Assure que la carte est derrière le contenu */
   }
-
-  // .gmap iframe {
-  //   width: 100%; /* Assure que l'iframe occupe toute la largeur de son conteneur */
-  //   height: 100%; /* Assure que l'iframe occupe toute la hauteur de son conteneur */
-  //   pointer-events: none;
-  // }
 }

@@ -87,6 +87,9 @@
 
     img {
       border-radius: 50px;
+      object-fit: cover;
+      // width: 100%;
+      align-self: center;
       // height: 10vh;
       // width: 20vw;
     }
@@ -98,6 +101,8 @@
     .dish-item-content {
       padding: 0 10px;
       text-align: left;
+      // margin: 0 10px;
+      // height: 100%;
 
       h3 {
         font-size: 0.8rem;
