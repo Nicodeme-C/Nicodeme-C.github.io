@@ -11,11 +11,6 @@ footer {
   }
 }
 
-.footer_left {
-  display: grid;
-  grid-template-columns: 10% 90%;
-  background: $black2;
-}
 .footer_left_part {
   background: $black2;
   color: $white;
@@ -48,6 +43,10 @@ footer {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 50px;
+
+  @media screen and (max-width: 856px) {
+    font-size: 0.9rem;
+  }
 
   h5 {
     margin-top: 50px;

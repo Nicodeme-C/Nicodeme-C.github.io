@@ -3,7 +3,7 @@
 .before_footer {
   position: relative;
   z-index: 1;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 
   @media screen and (max-width: 768px) {
   }
@@ -24,6 +24,7 @@
     .icon {
       position: absolute;
       top: -25px;
+      transform: translate(-50%);
       // left: 50px;
       // transform: translate(X);
     }
