@@ -16,15 +16,18 @@ Voici quelques projets que j'ai créé en me basant sur des maquettes :
 
 Après avoir appris le Html, et CSS , je me base sur une maquette pour reproduire ce premier projet qui m'a permis de mettre un premier pied dans la conception de site.
 
+
 [Visiter le site](https://nicodeme-c.github.io/projet-run/)
 
 ### 2eme Projet
+
 
 En me basant sur une seconde maquette , et en ayant appris le SCSS entre temps , j'ai pu faire le site suivant , en intégrant toutes les notions que j'ai appris depuis le début
 
 [Visiter le site](https://nicodeme-c.github.io/projet-sass1/)
 
 ### 3eme Projet
+
 
 Ce projet plus complet est la premiere page d'un site vitrine d'un restaurant gastronomique , je me suis également basé sur une maquette , afin de mettre en pratique mes connaissances.
 
