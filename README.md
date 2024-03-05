@@ -1,11 +1,14 @@
-# Bonjour, et bienvenue sur ma page regroupant tous mes projets
+# Bonjour et bienvenue sur ma page Github
 
-Bonjour, je m'appelle Nicodème et je suis un développeur web en reconversion professionnelle. J'ai appris les bases du HTML et du CSS, et je suis en train d'apprendre le JavaScript. Je suis passionné par le web/mobile et j'aimerais travailler dans ce domaine.
+
+
+Hello, je m'appelle Nicodème et je suis un développeur web en reconversion professionnelle. J'ai appris les bases du HTML et du CSS, et je suis en train d'apprendre le JavaScript. Je suis passionné par le web/mobile et j'aimerais travailler dans ce domaine.
 
 ## Technologies
 
 - HTML
 - CSS
+- SASS
 - JavaScript (en cours d'apprentissage)
 
 ## Projets
