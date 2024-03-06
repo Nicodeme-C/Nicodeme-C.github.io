@@ -1,21 +1,23 @@
 # Bonjour et bienvenue sur ma page GitHub 👋
 
-Je suis Nicodème, un développeur web en reconversion professionnelle. J'ai appris en autodidacte les bases du HTML et du CSS, et je suis en train d'apprendre le JavaScript. Je suis passionné par le web/mobile et j'aimerais travailler dans ce domaine.
+Je suis Nicodème, un développeur web en reconversion professionnelle. J'ai appris en autodidacte les bases du HTML et du CSS, et je suis en train d'apprendre le JavaScript. Je suis passionné depuis peu par le developpement web/mobile et j'aimerais travailler dans ce domaine.
 
-Ce portfolio a pour but de présenter mes compétences et mes projets réalisés. Vous y trouverez des exemples de sites que j'ai créés en utilisant différentes technologies web.
+##Présentation 🚀
+
+Ce portfolio a pour but de présenter mes compétences et mes projets réalisés. Vous y trouverez des exemples de sites que j'ai créés en utilisant différentes technologies web. 
 
 ## Technologies 🛠️
 
-* HTML5
-* CSS3
-* SASS
-* JavaScript
+- <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5"> HTML
+- <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3"> CSS
+- <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS
+- <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> JAVASCRIPT
 
 ## Projets 💻
 
-### 1er Projet
+### 1er Projet : Course à pied
 
-[Capture d'écran du 1er projet]
+<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet1_run_desktop.jpeg"  alt="Screenshot Projet 1" height="300">
 
 Ce projet est le premier que j'ai réalisé en me basant sur une maquette. Il s'agit d'une page d'accueil pour un site de course à pied. J'ai utilisé pour ce projet, le HTML et le CSS pour reproduire fidèlement le design et la mise en page de la maquette. Ce projet m'a permis de mettre en pratique les notions de base du développement web, comme les balises HTML, les sélecteurs CSS, le positionnement des éléments, les médias queries...
 
@@ -23,9 +25,9 @@ Ce projet est le premier que j'ai réalisé en me basant sur une maquette. Il s'
 
 [Visiter le site](https://nicodeme-c.github.io/projet-run/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-run)
 
-### 2eme Projet
+### 2eme Projet : La montagne
 
-[Capture d'écran du 2eme projet]
+<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet2sass_desktop.jpeg" alt="Screenshot Projet 2" height="400">
 
 Ce projet est le deuxième que j'ai réalisé en me basant également sur une maquette. Il s'agit d'une page d'accueil concernant la montagne. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet m'a permis de découvrir le SASS, un préprocesseur CSS qui facilite l'écriture et l'organisation du code. J'ai appris à utiliser les variables, les mixins...
 
@@ -33,9 +35,9 @@ Ce projet est le deuxième que j'ai réalisé en me basant également sur une ma
 
 [Visiter le site](https://nicodeme-c.github.io/projet-sass1/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-sass1)
 
-### 3eme Projet
+### 3eme Projet : Le restaurant gastronomique
 
-[Capture d'écran du 3eme projet]
+<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet3resto_desktop.jpeg" alt="Screenshot Projet 3" height="400">
 
 Ce projet est le troisième que j'ai réalisé en me basant sur une maquette. Il s'agit d'une première page d'un site vitrine pour un restaurant gastronomique. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet plus complet et plus difficile que les deux premiers m'a permis d'aprofondir mes connaissances avec les animations CSS, le GRID, le FLEX les mixins , les variables, les transitions, les transformations, les keyframes...
 
