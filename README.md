@@ -17,7 +17,7 @@ Ce portfolio a pour but de présenter mes compétences et mes projets réalisés
 
 ### 1er Projet : Course à pied
 
-<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet1_run_desktop.jpeg"  alt="Screenshot Projet 1" height="300">
+<img src="https://i.goopics.net/7hggo3.jpg"  alt="Screenshot Projet 1" height="300">
 
 Ce projet est le premier que j'ai réalisé en me basant sur une maquette. Il s'agit d'une page d'accueil pour un site de course à pied. J'ai utilisé pour ce projet, le HTML et le CSS pour reproduire fidèlement le design et la mise en page de la maquette. Ce projet m'a permis de mettre en pratique les notions de base du développement web, comme les balises HTML, les sélecteurs CSS, le positionnement des éléments, les médias queries...
 
@@ -27,7 +27,7 @@ Ce projet est le premier que j'ai réalisé en me basant sur une maquette. Il s'
 
 ### 2eme Projet : La montagne
 
-<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet2sass_desktop.jpeg" alt="Screenshot Projet 2" height="400">
+<img src="https://i.goopics.net/cke1sm.jpg" alt="Screenshot Projet 2" height="400">
 
 Ce projet est le deuxième que j'ai réalisé en me basant également sur une maquette. Il s'agit d'une page d'accueil concernant la montagne. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet m'a permis de découvrir le SASS, un préprocesseur CSS qui facilite l'écriture et l'organisation du code. J'ai appris à utiliser les variables, les mixins...
 
@@ -37,7 +37,7 @@ Ce projet est le deuxième que j'ai réalisé en me basant également sur une ma
 
 ### 3eme Projet : Le restaurant gastronomique
 
-<img src="https://github.com/Nicodeme-C/Nicodeme-C.github.io/blob/main/screenshot_des_projets/screenshot_projet3resto_desktop.jpeg" alt="Screenshot Projet 3" height="400">
+<img src="https://i.goopics.net/9uq7td.jpg" alt="Screenshot Projet 3" height="400">
 
 Ce projet est le troisième que j'ai réalisé en me basant sur une maquette. Il s'agit d'une première page d'un site vitrine pour un restaurant gastronomique. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet plus complet et plus difficile que les deux premiers m'a permis d'aprofondir mes connaissances avec les animations CSS, le GRID, le FLEX les mixins , les variables, les transitions, les transformations, les keyframes...
 
