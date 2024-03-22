@@ -1,3 +1,4 @@
+
 # Bonjour et bienvenue sur ma page 👋
 
 Je m’appelle **Nicodème**, Technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai acquis les bases du HTML et du CSS et je suis actuellement en train de me former en JavaScript. 
@@ -60,11 +61,9 @@ Cette section s'enrichera de mes futurs projets en parallèle de mon apprentissa
 
 Vous pouvez me retrouver sur les réseaux sociaux suivants :
 
-- [LinkedIn](https://www.linkedin.com/in/nicod%C3%A8me-c-89110b137/)
+- [LinkedIn](https://www.linkedin.com/in/nicodeme-c)
 - [GitHub](https://github.com/Nicodeme-C)
 
 ## Contact 📧
 
-Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à [📧nicodeme.cajuste@etik.com](mailto:nicodeme.cajuste@etik.com) ou via [<img src="https://img.icons8.com/fluent/48/000000/linkedin.png" height="25px"/>Linkedin](https://www.linkedin.com/in/nicod%C3%A8me-c-89110b137/)/[<img src="https://img.icons8.com/fluent/48/000000/github.png" height="25px"/>Github](https://github.com/Nicodeme-C)
-
-
+Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à [📧nicodeme.cajuste@etik.com](mailto:nicodeme.cajuste@etik.com) ou via [<img src="https://img.icons8.com/fluent/48/000000/linkedin.png" height="25px"/>Linkedin](https://www.linkedin.com/in/nicodeme-c)/[<img src="https://img.icons8.com/fluent/48/000000/github.png" height="25px"/>Github](https://github.com/Nicodeme-C)
