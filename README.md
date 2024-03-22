@@ -1,6 +1,13 @@
 # Bonjour et bienvenue sur ma page GitHub 👋
 
-Je suis Nicodème, un développeur web en reconversion professionnelle. J'ai appris en autodidacte les bases du HTML et du CSS, et je suis en train d'apprendre le JavaScript. Je suis passionné depuis peu par le developpement web/mobile et j'aimerais travailler dans ce domaine.
+Je m’appelle Nicodème, technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai maîtrisé les bases du HTML et du CSS et je suis actuellement en train de me perfectionner en JavaScript. Ma passion pour le développement web/mobile est récente mais intense, et je suis déterminé à réussir dans ce domaine.
+
+En tant qu'étudiant, je suis activement à la recherche d'une opportunité professionnelle au sein d'une entreprise qui saura accompagner ma reconversion vers le développement web/mobile.
+Avec 15 ans d'expérience dans le secteur informatique, j'ai acquis une expertise solide en débogage, en recherche de problème, et en gestion de la relation client, que je suis convaincu de pouvoir mettre à profit dans ma nouvelle carrière.
+
+Je suis animé par une volonté inébranlable de relever de nouveaux défis et d'apporter ma passion et ma détermination à chaque projet auquel je participe.
+Si vous êtes intéressé par un profil dynamique et en constante évolution, ou si vous souhaitez simplement en apprendre davantage sur mon parcours, je vous invite chaleureusement à me contacter.
+
 
 ## Présentation 🚀
 
@@ -13,29 +20,29 @@ Ce portfolio a pour but de présenter mes compétences et mes projets réalisés
 - <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS
 - <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> JAVASCRIPT
 
-## Projets 💻
+## Répliques de maquette 💻
 
-### 1er Projet : Course à pied
+### 1er Projet : Course à pied 🏃‍♂️
 
 <img src="https://i.goopics.net/7hggo3.jpg"  alt="Screenshot Projet 1" height="300">
 
-Ce projet est le premier que j'ai réalisé en me basant sur une maquette. Il s'agit d'une page d'accueil pour un site de course à pied. J'ai utilisé pour ce projet, le HTML et le CSS pour reproduire fidèlement le design et la mise en page de la maquette. Ce projet m'a permis de mettre en pratique les notions de base du développement web, comme les balises HTML, les sélecteurs CSS, le positionnement des éléments, les médias queries...
+Voici mon premier projet que j'ai réalisé en me basant sur une maquette. Il s'agit d'une page d'accueil pour un site de course à pied. J'ai utilisé pour ce projet, le HTML et le CSS pour reproduire fidèlement le design et la mise en page de la maquette. Ce projet m'a permis de mettre en pratique les notions de base du développement web, comme les balises HTML, les sélecteurs CSS, le positionnement des éléments, les médias queries...
 
 [Visiter le site](https://nicodeme-c.github.io/projet-run/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-run)
 
-### 2eme Projet : La montagne
+### 2eme Projet : La montagne ⛰️
 
 <img src="https://i.goopics.net/cke1sm.jpg" alt="Screenshot Projet 2" height="400">
 
-Ce projet est le deuxième que j'ai réalisé en me basant également sur une maquette. Il s'agit d'une page d'accueil concernant la montagne. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet m'a permis de découvrir le SASS, un préprocesseur CSS qui facilite l'écriture et l'organisation du code. J'ai appris à utiliser les variables, les mixins...
+Ceci est le second projet , toujours basé sur une maquette. Il s'agit d'une page d'accueil concernant la montagne. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet m'a permis de découvrir le SASS. J'ai appris à utiliser les variables, les mixins...
 
 [Visiter le site](https://nicodeme-c.github.io/projet-sass1/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-sass1)
 
-### 3eme Projet : Le restaurant gastronomique
+### 3eme Projet : Le restaurant gastronomique 🍽️
 
 <img src="https://i.goopics.net/9uq7td.jpg" alt="Screenshot Projet 3" height="400">
 
-Ce projet est le troisième que j'ai réalisé en me basant sur une maquette. Il s'agit d'une première page d'un site vitrine pour un restaurant gastronomique. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet plus complet et plus difficile que les deux premiers m'a permis d'aprofondir mes connaissances avec les animations CSS, le GRID, le FLEX les mixins , les variables, les transitions, les transformations, les keyframes...
+Enfin le troisième projet réalisé, toujours en se basant sur une maquette. Il s'agit d'une première page d'un site vitrine pour un restaurant gastronomique. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet plus complet et plus difficile que les deux premiers m'a permis d'approfondir mes connaissances avec les animations CSS, le GRID, le FLEX, les mixins , les variables, les transitions, les transformations, les keyframes...
 
 Suite à ce projet , je commence à apprendre les bases du Javascript.
 
@@ -50,4 +57,4 @@ Vous pouvez me retrouver sur les réseaux sociaux suivants :
 
 ## Contact 📧
 
-Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à [nicodeme.cajuste@etik.com] ou via [LinkedIn](https://www.linkedin.com/in/nicod%C3%A8me-c-89110b137/)/[GitHub](https://github.com/Nicodeme-C)
+Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à [📧nicodeme.cajuste@etik.com](mailto:nicodeme.cajuste@etik.com) ou via [LinkedIn](https://www.linkedin.com/in/nicod%C3%A8me-c-89110b137/)/[GitHub](https://github.com/Nicodeme-C)
