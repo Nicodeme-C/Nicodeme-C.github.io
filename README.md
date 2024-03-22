@@ -1,6 +1,6 @@
 # Bonjour et bienvenue sur ma page GitHub 👋
 
-Je m’appelle **Nicodème**, technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai acquis les bases du HTML et du CSS et je suis actuellement en train de me perfectionner en JavaScript. 
+Je m’appelle **Nicodème**, Technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai acquis les bases du HTML et du CSS et je suis actuellement en train de me former en JavaScript. 
 
 **Ma passion pour le développement web/mobile est récente mais intense, et je suis déterminé à réussir dans ce domaine.**
 
@@ -15,7 +15,7 @@ Je suis animé par une volonté inébranlable de relever de nouveaux défis et d
 
 ## Présentation 🚀
 
-Ce portfolio a pour but de présenter mes compétences et mes projets réalisés. Vous y trouverez des exemples de sites que j'ai créés en utilisant différentes technologies web.
+Ce portfolio a pour but de présenter mes compétences et mes projets réalisés. Vous y trouverez mes créations que j'ai créés en utilisant différentes technologies web.
 
 ## Technologies 🛠️
 
@@ -24,7 +24,7 @@ Ce portfolio a pour but de présenter mes compétences et mes projets réalisés
 - <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS
 - <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> JAVASCRIPT
 
-## Répliques de maquette 💻
+## Début de l'aventure : Répliques de maquette💻
 
 ### 1er Projet : Course à pied 🏃‍♂️
 
@@ -51,6 +51,10 @@ Enfin le troisième projet réalisé, toujours en se basant sur une maquette. Il
 Suite à ce projet , je commence à apprendre les bases du Javascript.
 
 [Visiter le site](https://nicodeme-c.github.io/resto/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/resto)
+
+## Projets 💻
+
+Cette section s'enrichera de mes futurs projets en parallèle de mon apprentissage
 
 ## Réseaux sociaux 🌐
 
