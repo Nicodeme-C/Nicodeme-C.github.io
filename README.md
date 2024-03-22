@@ -1,4 +1,4 @@
-# Bonjour et bienvenue sur ma page GitHub 👋
+# Bonjour et bienvenue sur ma page 👋
 
 Je m’appelle **Nicodème**, Technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai acquis les bases du HTML et du CSS et je suis actuellement en train de me former en JavaScript. 
 
