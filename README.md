@@ -5,11 +5,9 @@ Je m’appelle **Nicodème**, Technicien support, et je suis en pleine reconvers
 
 **Ma passion pour le développement web/mobile est récente mais intense, et je suis déterminé à réussir dans ce domaine.**
 
-En tant qu'étudiant, je suis activement à la recherche d'une opportunité professionnelle au sein d'une entreprise qui saura accompagner ma reconversion vers le développement web/mobile.
+En tant qu'étudiant en alternance, je suis activement à la recherche d'une entreprise qui saura accompagner ma reconversion vers le développement web/mobile.
 
 Avec 15 ans d'expérience dans le secteur informatique, j'ai acquis une expertise solide en débogage, en recherche de problème, et en gestion de la relation client, que je suis convaincu de pouvoir mettre à profit dans ma nouvelle carrière.
-
-Je suis animé par une volonté inébranlable de relever de nouveaux défis et d'apporter ma passion et ma détermination à chaque projet auquel je participe.
 
 **Si vous êtes intéressé par un profil dynamique et en constante évolution, ou si vous souhaitez simplement en apprendre davantage sur mon parcours, je vous invite chaleureusement à me contacter.**
 
