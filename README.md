@@ -25,7 +25,7 @@ Ce portfolio a pour but de présenter mes compétences et mes projets réalisés
 
 ## Début de l'aventure : Répliques de maquette💻
 
-### 1er Projet : Course à pied 🏃‍♂️
+### 1ere maquette : Course à pied 🏃‍♂️
 
 [<img src="https://i.goopics.net/7hggo3.jpg"  alt="Screenshot Projet 1" height="300">](https://nicodeme-c.github.io/projet-run/)
 
@@ -33,7 +33,7 @@ Voici mon premier projet que j'ai réalisé en me basant sur une maquette. Il s'
 
 [Visiter le site](https://nicodeme-c.github.io/projet-run/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-run)
 
-### 2eme Projet : La montagne ⛰️
+### 2eme maquette : La montagne ⛰️
 
 [<img src="https://i.goopics.net/cke1sm.jpg" alt="Screenshot Projet 2" height="400">](https://nicodeme-c.github.io/projet-sass1/)
 
@@ -41,7 +41,7 @@ Ceci est le second projet , toujours basé sur une maquette. Il s'agit d'une pag
 
 [Visiter le site](https://nicodeme-c.github.io/projet-sass1/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-sass1)
 
-### 3eme Projet : Le restaurant gastronomique 🍽️
+### 3eme maquette : Le restaurant gastronomique 🍽️
 
 [<img src="https://i.goopics.net/9uq7td.jpg" alt="Screenshot Projet 3" height="400">](https://nicodeme-c.github.io/resto/)
 
