@@ -1,6 +1,4 @@
 //******************************** */ VARIABLES***************************/
-const gameTime = 30000; //Temps du jeu 30sec
-let timer; // Variable pour stocker le timer du compte à rebours
 
 //Counter pour les bulles
 const counterDisplay = document.querySelector("h3");
@@ -8,19 +6,6 @@ let counter = 0;
 
 
 //******************************** */ FONCTIONS***************************/
-
-// Fonction pour démarrer le compte à rebours
-const startTimer = () => {
-    timer = setTimeout(() => {
-        stopGame(); // Appelle la fonction pour arrêter le jeu lorsque le temps est écoulé
-    }, gameTime);
-}
-
-// Fonction pour arrêter le jeu
-const stopGame = () => {
-    clearInterval(bubbleInterval); // Arrête la création de bulles
-    alert("Game over! Your score is: " + counter); // Affiche l'alerte avec le score final
-}
 
 //Fonction creer des bulles
 const createBubble = () => {
@@ -30,7 +15,7 @@ const createBubble = () => {
     document.body.appendChild(bubble); // On declare que bubble est le fils de body
     bubble.classList.add("bubble"); // ajoute la class bubble a l'element bubble donc le span
     
-const size = Math.random() * 200 + 100 + "px"; // Math fonction pour generer des chiffres aléatoires entre 0 et 1, en multipliant par 200 et en ajoutant 100 le chiffre sera compris entre 100 et 300
+const size = Math.random() * 200 + 100 + "px";
 
 bubble.style.width = size;
 bubble.style.height = size;
@@ -52,14 +37,6 @@ setTimeout(() => {
 }
 
 //**************************************************************/
-
-
-
-
-// Appel de la fonction pour démarrer le compte à rebours au début du jeu
-startTimer();
-
-
 
 //Creation périodique des bulles
 const bubbleInterval = setInterval(createBubble, 700);

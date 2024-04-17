@@ -1,7 +1,31 @@
 /* style.css */
 body {
-  background-color: #f0f0f0;
   overflow: hidden;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #e0e0e0;
+}
+
+.start-screen {
+  margin: 50px 50px;
+  border: solid 1px #333;
+  border-radius: 50px;
+  padding: 100px;
+  background: rgba(255, 166, 0, 0.6);
+  filter: hue-rotate(0deg);
+  /* opacity: 0; */
+  animation: anim-start 15s forwards;
+}
+
+@keyframes anim-start {
+  to {
+    /* opacity: 1; */
+    filter: hue-rotate(360deg);
+  }
 }
 .bubble {
   position: absolute;
@@ -32,7 +56,15 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
 button {
+  text-decoration: none;
   background-color: rgb(4, 94, 19);
   border-radius: 300px;
   padding: 20px 50px;
@@ -41,7 +73,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   color: white;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -50,4 +81,11 @@ button {
 button:hover {
   transform: scale(1.1);
   font-size: 2.2rem;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
 }
