@@ -1,11 +1,14 @@
 //******************************** */ VARIABLES***************************/
-const gameTime = 30000; //Temps du jeu 30sec
+const gameTime = 3000; //Temps du jeu 30sec
 let timer; // Variable pour stocker le timer du compte à rebours
 
+let bubbleInterval;
 //Counter pour les bulles
 const counterDisplay = document.querySelector("h3");
 let counter = 0;
 
+//Creation périodique des bulles
+const bubbleInterval = setInterval(createBubble, 700);
 
 //******************************** */ FONCTIONS***************************/
 
@@ -51,6 +54,8 @@ setTimeout(() => {
 }, 9000);
 }
 
+
+
 //**************************************************************/
 
 
@@ -61,5 +66,5 @@ startTimer();
 
 
 
-//Creation périodique des bulles
-const bubbleInterval = setInterval(createBubble, 700);
+
+

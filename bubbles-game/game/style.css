@@ -4,6 +4,7 @@ body {
   cursor: crosshair;
   background-color: #e0e0e0;
 }
+
 .bubble {
   position: absolute;
   border-radius: 300px;
@@ -20,6 +21,10 @@ body {
     opacity: 1;
     filter: hue-rotate(360deg);
   }
+}
+
+.timeofgame {
+  display: flex;
 }
 
 .start-screen {
@@ -44,7 +49,6 @@ body {
   margin: 0 auto;
 }
 
-h1,
 h3 {
   text-align: center;
   color: rgb(133, 122, 122);
