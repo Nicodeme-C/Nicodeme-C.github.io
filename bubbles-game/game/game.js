@@ -1,5 +1,5 @@
 //******************************** */ DECLARATIONS DE CONSTANTES ET VARIABLES***************************/
-let gameTime = 12000; //Temps du jeu 30sec
+let gameTime = 30000; //Temps du jeu 30sec
 let timer; // Variable pour stocker le timer du compte à rebours
 
 
