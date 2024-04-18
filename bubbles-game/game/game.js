@@ -12,7 +12,10 @@ const timerDisplay  = document.getElementById("timeofgame");
 
 const timeClass = document.querySelector(".time");
 const titleTime = document.querySelector("h2");
-const audio = new Audio("./pop.mp3");
+
+//Ajout de l'audio
+const audio = new Audio("./pop.mp3");audio.src = './pop.mp3';
+audio.preload = 'auto';
 
 //******************************** */ FONCTIONS***************************/
 
@@ -94,13 +97,12 @@ bubble.addEventListener("click", () => {
     counter++;
     counterDisplay.textContent = counter;
     bubble.remove();
-    if (!audio.paused) { 
-        audio.pause(); 
         audio.currentTime = 0; 
+        audio.play();
     }
-    audio.play();
+
     
-});
+);
 
 setTimeout(() => {
     bubble.remove();
