@@ -12,7 +12,7 @@ const timerDisplay  = document.getElementById("timeofgame");
 
 const timeClass = document.querySelector(".time");
 const titleTime = document.querySelector("h2");
-const audio = new Audio("./sound/pop.mp3");
+let audio = new Audio("./pop.mp3");
 
 //******************************** */ FONCTIONS***************************/
 
@@ -94,7 +94,12 @@ bubble.addEventListener("click", () => {
     counter++;
     counterDisplay.textContent = counter;
     bubble.remove();
+    if (!audio.paused) { 
+        audio.pause(); 
+        audio.currentTime = 0; 
+    }
     audio.play();
+    
 });
 
 setTimeout(() => {
