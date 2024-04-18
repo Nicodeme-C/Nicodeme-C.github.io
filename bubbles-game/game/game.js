@@ -12,7 +12,7 @@ const timerDisplay  = document.getElementById("timeofgame");
 
 const timeClass = document.querySelector(".time");
 const titleTime = document.querySelector("h2");
-let audio = new Audio("./pop.mp3");
+const audio = new Audio("./pop.mp3");
 
 //******************************** */ FONCTIONS***************************/
 
