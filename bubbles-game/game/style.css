@@ -21,7 +21,7 @@ body {
   border-radius: 300px;
   background: rgba(255, 166, 0, 0.6);
   opacity: 0;
-  animation: anim 5s forwards;
+  animation: anim 8s forwards;
   filter: hue-rotate(0deg);
 }
 
@@ -93,4 +93,12 @@ h3 {
 
   opacity: 1;
   z-index: -1;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: rgb(133, 122, 122);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }

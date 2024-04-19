@@ -72,7 +72,7 @@ const playAgain = () => {
 const stopGame = () => {
     clearInterval(bubbleInterval); // Arrête la création de bulles
     clearInterval(timer);
-    if (counter = 500) {
+    if (counter == 500) {
         alert("Vous avez terminé le jeu , vous faites parties de l'élite !");
     }
     
@@ -125,7 +125,7 @@ bubble.addEventListener("click", () => {
       //Fonction pour augmenter le temps du jeu si 30 boules sont touchées
 const levelup = () => {
     if (counter % 30  === 0) {
-        gameTime += 20000; 
+        gameTime += 15000; 
         adjustBubbleAnimation(); 
     }
         if (counter === 500){ 
