@@ -26,7 +26,7 @@ body {
   max-width: 75%;
   border: solid 1px rgb(27, 27, 27);
   border-radius: 50px;
-  padding: 40px;
+  padding: 20px;
   background: rgba(255, 166, 0, 0.6);
   filter: hue-rotate(0deg);
 
@@ -90,4 +90,21 @@ button {
 button:hover {
   transform: scale(1.1);
   font-size: 2.2rem;
+}
+
+/* Mediaqueries */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    padding: 5px;
+    font-size: 1rem;
+
+    color: #33333396;
+
+    text-align: center;
+  }
 }
