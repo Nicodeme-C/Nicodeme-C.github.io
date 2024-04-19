@@ -17,6 +17,7 @@ const titleTime = document.querySelector("h2");
 const audio = new Audio("./pop.mp3");audio.src = './pop.mp3';
 audio.preload = 'auto';
 
+
 //******************************** */ FONCTIONS***************************/
 
 // Fonction pour démarrer le compte à rebours
@@ -54,7 +55,7 @@ const startTimer = () => {
 
 //Fonction pour rejouer
 const playAgain = () => {
-    const playAgainConfirmed = confirm("Congratulations! Do you want to play again?");
+    const playAgainConfirmed = confirm("Bravo pour votre performance ! Envie d'essayer de battre votre propre record ?");
     if (playAgainConfirmed) {
         location.reload(); // Recharge la page pour relancer une nouvelle partie
     } else {
@@ -62,7 +63,7 @@ const playAgain = () => {
    document.body.appendChild(replayEnd); // On declare que replayEnd est le fils de body
    replayEnd.classList.add("replayend"); // ajoute la class replayend a l'element replayend donc le h5
    replayEnd.href = "https://nicodeme-c.github.io/bubbles-game"; // Définir l'URL de destination du lien
-   replayEnd.textContent = "Play Again"; // Définir le texte du lien
+   replayEnd.textContent = "Rejouer"; // Définir le texte du lien
 
   }
 }
@@ -71,8 +72,16 @@ const playAgain = () => {
 const stopGame = () => {
     clearInterval(bubbleInterval); // Arrête la création de bulles
     clearInterval(timer);
-    alert("Game over! Your score is: " + counter); // Affiche l'alerte avec le score final
-    playAgain(); // Appelle la fonction pour rejouer
+    if (counter = 500) {
+        alert("Vous avez terminé le jeu , vous faites parties de l'élite !");
+    }
+    
+    if (counter < 500) {
+        alert("La partie est terminée ! Votre score final est de : " + counter + ". Félicitations pour votre performance !");
+       
+      
+    } playAgain(); // Appelle la fonction pour rejouer
+   
 }
 
 //Fonction creer des bulles
@@ -99,15 +108,40 @@ bubble.addEventListener("click", () => {
     bubble.remove();
         audio.currentTime = 0; 
         audio.play();
-    }
+        levelup();
 
-    
-);
+    });
+
+    // Fonction pour ajuster la durée de l'animation des bulles
+    const adjustBubbleAnimation = () => {
+        const bubbles = document.querySelectorAll('.bubble');
+        const animationDuration = 8 - (Math.floor(counter / 30) * 2); // Réduit la durée de l'animation de 2 secondes à chaque multiple de 30
+      
+        bubbles.forEach(bubble => {
+          bubble.style.animationDuration = animationDuration + 's'; // Ajuste la durée de l'animation des bulles
+        });
+      }
+
+      //Fonction pour augmenter le temps du jeu si 30 boules sont touchées
+const levelup = () => {
+    if (counter % 30  === 0) {
+        gameTime += 20000; 
+        adjustBubbleAnimation(); 
+    }
+        if (counter === 500){ 
+            stopGame();}
+       
+      
+    }
+}
+
+ 
+
 
 setTimeout(() => {
     bubble.remove();
 }, 9000);
-}
+
 
 
 
@@ -121,6 +155,7 @@ startTimer();
 
 //Creation périodique des bulles
 const bubbleInterval = setInterval(createBubble, 700);
+
 
 
 

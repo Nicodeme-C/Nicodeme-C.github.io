@@ -21,8 +21,17 @@ body {
   border-radius: 300px;
   background: rgba(255, 166, 0, 0.6);
   opacity: 0;
-  animation: anim 8s forwards;
+  animation: anim 5s forwards;
   filter: hue-rotate(0deg);
+}
+
+@keyframes anim {
+  to {
+    top: -250px;
+    left: var(--left);
+    opacity: 1;
+    filter: hue-rotate(360deg);
+  }
 }
 
 a:visited {
@@ -53,15 +62,6 @@ a {
 
 a:hover {
   transform: translateX(-50%) scale(1.1);
-}
-
-@keyframes anim {
-  to {
-    top: -250px;
-    left: var(--left);
-    opacity: 1;
-    filter: hue-rotate(360deg);
-  }
 }
 
 .time {
