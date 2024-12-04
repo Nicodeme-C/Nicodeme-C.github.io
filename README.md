@@ -23,50 +23,8 @@ Ce portfolio a pour but de présenter mes compétences et mes projets réalisés
 - <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3"> CSS
 - <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS
 - <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> JAVASCRIPT
+- <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" alt="React"> REACT
 
-## Début de l'aventure : Répliques de maquette💻
-
-### 1ère maquette : Course à pied 🏃‍♂️
-
-[<img src="https://i.goopics.net/7hggo3.jpg"  alt="Maquette_1" height="300">](https://nicodeme-c.github.io/projet-run/)
-
-Voici mon premier exercice que j'ai réalisé en me basant sur une maquette. Il s'agit d'une page d'accueil pour un site de course à pied. J'ai utilisé pour ce projet, le HTML et le CSS pour reproduire fidèlement le design et la mise en page de la maquette. Ce projet m'a permis de mettre en pratique les notions de base du développement web, comme les balises HTML, les sélecteurs CSS, le positionnement des éléments, les médias queries...
-
-[Visiter le site](https://nicodeme-c.github.io/projet-run/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-run)
-
-### 2eme maquette : La montagne ⛰️
-
-[<img src="https://i.goopics.net/cke1sm.jpg" alt="Maquette_2" height="400">](https://nicodeme-c.github.io/projet-sass1/)
-
-Ceci est le second exercice , toujours basé sur une maquette. Il s'agit d'une page d'accueil concernant la montagne. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet m'a permis de découvrir le SASS. J'ai appris à utiliser les variables, les mixins...
-
-[Visiter le site](https://nicodeme-c.github.io/projet-sass1/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/projet-sass1)
-
-### 3eme maquette : Le restaurant gastronomique 🍽️
-
-[<img src="https://i.goopics.net/9uq7td.jpg" alt="Masquette_3" height="400">](https://nicodeme-c.github.io/resto/)
-
-Enfin le troisième exercice réalisé, toujours en se basant sur une maquette. Il s'agit d'une première page d'un site vitrine pour un restaurant gastronomique. J'ai utilisé le HTML, le CSS et le SASS pour reproduire le design et la mise en page de la maquette. Ce projet plus complet et plus difficile que les deux premiers m'a permis d'approfondir mes connaissances avec les animations CSS, le GRID, le FLEX, les mixins , les variables, les transitions, les transformations, les keyframes...
-
-Suite à cet exercice , je commence à apprendre les bases du Javascript.
-
-[Visiter le site](https://nicodeme-c.github.io/resto/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/resto)
-
-## Projets 💻
-
-### 1er projet : Jeu de bulles
-
-[<img src="https://i.goopics.net/3v9ijv.png" alt="Bubbles-game" height="400">](https://nicodeme-c.github.io/bubbles-game/)
-
-Pour mon premier projet, j'ai crée un jeu qui consiste à eclater les bulles apparaissant à l'ecran, Bubbles Game. 
-
-Cette expérience m'a permis de plonger au cœur du DOM et de maîtriser les interactions avec la souris principalement . En me lançant dans ce projet, j'ai consolidé ma compréhension des concepts clés de la programmation tels que les variables, les fonctions, et les conditions. 
-De plus, j'ai pu manipuler directement les éléments HTML depuis JavaScript.
-
-Au-delà de l'aspect technique, ce projet m'a offert une formidable opportunité d'apprendre et de m'amuser en explorant les possibilités du développement web. 
-Cette première expérience a confirmé mon intérêt pour le développement web/mobile, et je compte continuer à améliorer ce projet existant tout en me lançant dans de nouveaux défis au fur et à mesure de mon avancement.
-
-[Visiter le site](https://nicodeme-c.github.io/bubbles-game/) | [Voir le code](https://github.com/Nicodeme-C/Nicodeme-C.github.io/tree/main/bubbles-game)
 
 ## Réseaux sociaux 🌐
 
