@@ -1,42 +1,44 @@
-# Bonjour et bienvenue sur ma page 👋
+# Bienvenue sur mon page GitHub 👋
 
-Je m’appelle **Nicodème**, Technicien support, et je suis en pleine reconversion vers une carrière en développement web/mobile. En tant qu’autodidacte, j’ai acquis les bases du HTML et du CSS et je suis actuellement en train de me former en JavaScript. 
+Je m’appelle **Nicodème**, développeur full stack autodidacte, passionné par la création d’applications et de sites web. Avec 15 ans d'expérience dans l'informatique, notamment dans le support technique, je mets aujourd'hui mon expertise au service du développement web.
 
-**Ma passion pour le développement web/mobile est récente mais intense, et je suis déterminé à réussir dans ce domaine.**
+**Polyvalent, curieux et déterminé**, j'ai su rapidement maîtriser des outils comme HTML, CSS, SASS, et JavaScript, tout en explorant des frameworks tels que React. Mon objectif est d’offrir des solutions optimales et adaptées aux besoins de mes clients et de leurs utilisateurs.
 
-En tant qu'étudiant, je suis activement à la recherche d'une opportunité professionnelle au sein d'une entreprise qui saura accompagner ma reconversion vers le développement web/mobile.
+Fort de mes compétences en débogage et résolution de problèmes, je suis capable de gérer des projets avec rigueur, tout en restant orienté vers la satisfaction client.
 
-Avec 15 ans d'expérience dans le secteur informatique, j'ai acquis une expertise solide en débogage, en recherche de problème, et en gestion de la relation client, que je suis convaincu de pouvoir mettre à profit dans ma nouvelle carrière.
+Actuellement, je travaille sur plusieurs projets en tant que freelance , comme la migration d'applications vers React et la mise en place de fonctionnalités avancées.
 
-Je suis animé par une grande volonté de relever de nouveaux défis et d'apporter ma passion et ma détermination à chaque projet auquel je participe.
+**Si vous êtes à la recherche d'un collaborateur dynamique et technique, je serais ravi de discuter de votre projet.**
 
-**Si vous êtes intéressé par un profil dynamique et en constante évolution, ou si vous souhaitez simplement en apprendre davantage sur mon parcours, je vous invite chaleureusement à me contacter.**
-
+---
 
 ## Présentation 🚀
 
-Ce portfolio a pour but de présenter mes compétences et mes projets réalisés. Vous y trouverez mes créations que j'ai créés en utilisant différentes technologies web.
+Ce portfolio met en avant mes compétences techniques et mes projets réalisés ( à venir) . Vous y trouverez des exemples concrets d’applications et d’interfaces que j’ai développées en utilisant des technologies modernes.
+
+---
 
 ## Technologies 🛠️
 
-- <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5"> HTML
-- <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3"> CSS
-- <img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS
-- <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> JAVASCRIPT
-- <img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" alt="React"> REACT
+Voici les outils et langages que j'utilise dans mes projets :
 
+- ![HTML5](https://img.icons8.com/color/48/000000/html-5.png) **HTML5**
+- ![CSS3](https://img.icons8.com/color/48/000000/css3.png) **CSS3**
+- ![SASS](https://img.icons8.com/color/48/000000/sass.png) **SASS**
+- ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) **JavaScript (ES6+)**
+- ![React](https://img.icons8.com/ultraviolet/40/000000/react--v1.png) **React**
+- ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) **Node.js**
+- ![Docker](https://img.icons8.com/color/48/000000/docker.png) **Docker**
 
-## Réseaux sociaux 🌐
+Je continue à me former sur d'autres outils et frameworks pour élargir encore mes compétences.
 
-Vous pouvez me retrouver sur les réseaux sociaux suivants :
-
-- [LinkedIn](https://www.linkedin.com/in/nicodeme-c)
-- [GitHub](https://github.com/Nicodeme-C)
-- [Instagram](https://www.instagram.com/nicodeme_codedev/)
+---
 
 ## Contact 📧
 
-Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à [📧nicodeme.cajuste@etik.com](mailto:nicodeme.cajuste@etik.com) ou via [<img src="https://img.icons8.com/fluent/48/000000/linkedin.png" height="25px"/>Linkedin](https://www.linkedin.com/in/nicodeme-c)/[<img src="https://img.icons8.com/fluent/48/000000/github.png" height="25px"/>Github](https://github.com/Nicodeme-C)
+Envoyez-moi un e-mail à [📧nicodeme.cajuste@etik.com](mailto:nicodeme.cajuste@etik.com) ou contactez-moi via :  
+[![LinkedIn](https://img.icons8.com/fluent/48/000000/linkedin.png) LinkedIn](https://www.linkedin.com/in/nicodeme-c) 
 
+[![GitHub](https://img.icons8.com/fluent/48/000000/github.png) GitHub](https://github.com/Nicodeme-C)
 
-
+[![Instagram](https://img.icons8.com/fluent/48/000000/instagram-new.png) Instagram](https://www.instagram.com/nicodeme_codedev/)
